@@ -1,0 +1,19 @@
+@import url('./animation.css');
+
+.food-discription.open {
+    animation: open 1s ease-out;
+}
+
+.food-discription.close {
+    animation: close 1s;
+}
+
+.food-discription > ul {
+    list-style: none;
+}
+.food-discription > ul > li {
+    margin: 1rem 0;
+}
+.foodErrorDiv {
+    text-align: center;
+}

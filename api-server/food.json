@@ -1,0 +1,2805 @@
+    [{
+    "REST_ID": 15189,
+    "REST_NM": "아리랑",
+    "ADDR": "대전광역시 중구 유천2동 328-2",
+    "DADDR": "",
+    "TELNO": "042-587-8255",
+    "OPEN_HR_INFO": "매일 00:00~24:00 연중무휴",
+    "TOB_INFO": "중식",
+    "RPRS_MENU_NM": "갈비짬뽕",
+    "LAT": "36.316261",
+    "LOT": "127.391027",
+    "MENU_ID": 15189,
+    "MENU_KORN_NM": [
+      "갈비짬뽕",
+      "고기짬뽕",
+      "숯불고기짬뽕",
+      "해장짬뽕",
+      "순두부짬뽕",
+      "짜장",
+      "짬뽕",
+      "간짜장",
+      "우동",
+      "울면"
+    ],
+    "MENU_ENG_NM": [
+      "gal-bi-jjam-ppong",
+      "go-ki-jjam-ppong",
+      "sut-bul-go-ki-jjam-ppong",
+      "hae-jang-jjam-ppong",
+      "sun-doo-boo-jjam-ppong",
+      "jjah-jang",
+      "jjam-ppong",
+      "gan-jjah-jang",
+      "woo-dong",
+      "ul-myun"
+    ],
+    "MENU_AMT": [
+      "10,000원",
+      "10,000원",
+      "10,000원",
+      "9,000원",
+      "9,000원",
+      "6,000원",
+      "7,000원",
+      "7,000원",
+      "7,000원",
+      "7,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "갈비 짬뽕",
+      "고기 짬뽕",
+      "숯불 고기 짬뽕",
+      "해장 짬뽕",
+      "순두부 짬뽕",
+      "짜장",
+      "짬뽕",
+      "간짜장",
+      "우동",
+      "울면"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Galbi jjamppong.",
+      "Spicy Seafood Noodles with Meat jjamppong.",
+      "Charcoal-grilled meat jjamppong.",
+      "Hangover jjamppong.",
+      "Soft tofu jjamppong.",
+      "Black Soybean Sauce",
+      "Jjambbong",
+      "Black Bean Noodles.",
+      "Udon",
+      "If I cry..."
+    ],
+    "SD_ID": 15189,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/31403063",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15190,
+    "REST_NM": "두리네밥도둑 송강신탄진점",
+    "ADDR": "대전광역시 유성구 봉산동 226-3",
+    "DADDR": "",
+    "TELNO": "",
+    "OPEN_HR_INFO": "",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "",
+    "LAT": "36.43579772",
+    "LOT": "127.3885377",
+    "MENU_ID": 15190,
+    "MENU_KORN_NM": [
+      
+    ],
+    "MENU_ENG_NM": [
+      
+    ],
+    "MENU_AMT": [
+      
+    ],
+    "MENU_KORN_ADD_INFO": [
+      
+    ],
+    "MENU_ENG_ADD_INFO": [
+      
+    ],
+    "SD_ID": 15190,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/21462538",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15191,
+    "REST_NM": "설천순대국밥",
+    "ADDR": "대전광역시 서구 둔산동 1353",
+    "DADDR": "",
+    "TELNO": "042-482-4801",
+    "OPEN_HR_INFO": "매일 00:00~24:00",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "순대국밥",
+    "LAT": "36.3540477",
+    "LOT": "127.3805116",
+    "MENU_ID": 15191,
+    "MENU_KORN_NM": [
+      "순대국밥",
+      "순대국밥 특",
+      "맛순대(1접시)",
+      "미니족(1접시)",
+      "모듬순대 ",
+      "맛내장",
+      "술국",
+      "모듬순대 중",
+      "곱창전골 소",
+      "곱창전골 중"
+    ],
+    "MENU_ENG_NM": [
+      "sun-dae-guk-bap",
+      "sun-dae-guk-bap teuk",
+      "mat-sun-dae-(1-jeop-si)",
+      "mi-ni-jok-(1-jeop-si)",
+      "mo-deum-sun-dae- ",
+      "mat-nae-jang",
+      "sul-guk",
+      "mo-deum-sun-dae joong",
+      "gop-chang-jeon-gol so",
+      "gop-chang-jeon-gol joong"
+    ],
+    "MENU_AMT": [
+      "8,000원",
+      "9,000원",
+      "8,000원",
+      "8,000원",
+      "25,000원",
+      "17,000원",
+      "17,000원",
+      "30,000원",
+      "30,000원",
+      "35,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "순대 국밥",
+      "순대 국밥 특",
+      "맛 순대 접시",
+      "미니 족 접시",
+      "듬 순대",
+      "맛 내장",
+      "술국",
+      "듬 순대 중",
+      "곱창전골 소",
+      "곱창전골 중"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Sundae gukbap.",
+      "Soondae gukbap is special.",
+      "Flavorable sundae plate.",
+      "A mini plate.",
+      "Deum Soondae.",
+      "Intestines that taste good.",
+      "Hangover Soup.",
+      "Deum Soondae.",
+      "Beef tripe hot pot.",
+      "Among gopchang jeongol."
+    ],
+    "SD_ID": 15191,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/16233808",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15193,
+    "REST_NM": "삐아체",
+    "ADDR": "대전광역시 유성구 전민동 466-3",
+    "DADDR": "엑스포코아",
+    "TELNO": "042-863-3497",
+    "OPEN_HR_INFO": "",
+    "TOB_INFO": "양식",
+    "RPRS_MENU_NM": "봉골레",
+    "LAT": "36.40000991",
+    "LOT": "127.4057004",
+    "MENU_ID": 15193,
+    "MENU_KORN_NM": [
+      "봉골레",
+      "토마토 스파게티",
+      "까르보나라",
+      "얼큰해물 스파게티",
+      "베이컨 김치 볶음밥"
+    ],
+    "MENU_ENG_NM": [
+      "bong-gol-re",
+      "to-mah-to seoo-pah-geh-ti",
+      "kkah-reoo-bo-na-ra",
+      "eol-kun-hae-mul seoo-pah-geh-ti",
+      "be-yi-keon gim-chi bok-eum-bap"
+    ],
+    "MENU_AMT": [
+      "12,000원",
+      "9,000원",
+      "9,000원",
+      "12,000원",
+      "8,500원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "봉골레",
+      "토마토 스파게티",
+      "까르보나라",
+      "물 스파게티",
+      "베이컨 김치 볶음밥"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Vongole.",
+      "Tomato spaghetti.",
+      "Carbonara",
+      "Water spaghetti.",
+      "Bacon kimchi fried rice."
+    ],
+    "SD_ID": 15193,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1158794100",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15194,
+    "REST_NM": "신탄회센터식당",
+    "ADDR": "대전광역시 대덕구 신탄진동 141-9",
+    "DADDR": "",
+    "TELNO": "042-933-8863",
+    "OPEN_HR_INFO": "",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "광어 대",
+    "LAT": "36.44969355",
+    "LOT": "127.4310098",
+    "MENU_ID": 15194,
+    "MENU_KORN_NM": [
+      "광어 대",
+      "우럭 중",
+      "도미 중",
+      "농어 중",
+      "모듬 중",
+      "안주용물회"
+    ],
+    "MENU_ENG_NM": [
+      "gwang-o dae",
+      "woo-reok joong",
+      "do-mi joong",
+      "nong-o joong",
+      "mo-deum joong",
+      "an-joo-yong-mul-hoe"
+    ],
+    "MENU_AMT": [
+      "90,000원",
+      "60,000원",
+      "75,000원",
+      "75,000원",
+      "80,000원",
+      "75,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "광어",
+      "우럭 중",
+      "도미 중",
+      "농어 중",
+      "모듬 중",
+      "안주 용 물회"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "flatfish",
+      "Among rockfish.",
+      "Sea bream.",
+      "Farming and fishing.",
+      "It's a assorted meal.",
+      "Cold Raw Fish Soup for snacks."
+    ],
+    "SD_ID": 15194,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1647661643",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15195,
+    "REST_NM": "궁중칼국수 한민점",
+    "ADDR": "대전광역시 서구 괴정동 91-29",
+    "DADDR": "",
+    "TELNO": "042-537-8110",
+    "OPEN_HR_INFO": "매일 09:00~20:30 매주 일요일 휴무",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "",
+    "LAT": "36.33378837",
+    "LOT": "127.382323",
+    "MENU_ID": 15195,
+    "MENU_KORN_NM": [
+      
+    ],
+    "MENU_ENG_NM": [
+      
+    ],
+    "MENU_AMT": [
+      
+    ],
+    "MENU_KORN_ADD_INFO": [
+      
+    ],
+    "MENU_ENG_ADD_INFO": [
+      
+    ],
+    "SD_ID": 15195,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/16153443",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15196,
+    "REST_NM": "가오동 바삭&떡볶이",
+    "ADDR": "대전광역시 동구 가오동 615",
+    "DADDR": "",
+    "TELNO": "042-274-4455",
+    "OPEN_HR_INFO": "매일 15:30~00:30 | 일요일 휴무",
+    "TOB_INFO": "분식",
+    "RPRS_MENU_NM": "떡볶이집",
+    "LAT": "36.3059778",
+    "LOT": "127.4550182",
+    "MENU_ID": 15196,
+    "MENU_KORN_NM": [
+      "떡볶이집",
+      "떡볶이(1인분)",
+      "꼬마김밥(1팩)",
+      "순대(1인분)",
+      "계란(1개)",
+      "핫도그(1개)"
+    ],
+    "MENU_ENG_NM": [
+      "tteok-bok-yi-jip",
+      "tteok-bok-yi-(1-in-bun)",
+      "kko-mah-gim-bap-(1-paek)",
+      "sun-dae-(1-in-bun)",
+      "gehh-ran-(1-gae)",
+      "hat-do-guu-(1-gae)"
+    ],
+    "MENU_AMT": [
+      "2,000원",
+      "2,500원",
+      "3,000원",
+      "3,500원",
+      "500원",
+      "1,500원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "떡볶이 집",
+      "떡볶이 인분",
+      "꼬마 김밥 팩",
+      "순대 인분",
+      "계란 개",
+      "핫도그 개"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Tteokbokki place.",
+      "One serving of tteokbokki.",
+      "Mini kimbap pack.",
+      "One serving of soondae.",
+      "An egg dog.",
+      "Hot dog."
+    ],
+    "SD_ID": 15196,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1229478500",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15197,
+    "REST_NM": "피치떡삼총사 유성본점",
+    "ADDR": "대전광역시 유성구 봉명동 1024",
+    "DADDR": "",
+    "TELNO": "042-826-5956",
+    "OPEN_HR_INFO": "매일 09:30~01:30",
+    "TOB_INFO": "양식",
+    "RPRS_MENU_NM": "피자(중)+피자(중)",
+    "LAT": "36.35134685",
+    "LOT": "127.3443137",
+    "MENU_ID": 15197,
+    "MENU_KORN_NM": [
+      "피자(중)+피자(중)",
+      "수제피자(중)+치즈떡볶이(중)",
+      "피치떡",
+      "떡피스",
+      "피떡바"
+    ],
+    "MENU_ENG_NM": [
+      "pi-ja-(joong)+pi-ja-(joong)",
+      "soo-je-pi-ja-(joong)+chi-jeoo-tteok-bok-yi-(joong)",
+      "pi-chi-tteok",
+      "tteok-pi-seoo",
+      "pi-tteok-bah"
+    ],
+    "MENU_AMT": [
+      "20,000원",
+      "20,000원",
+      "26,000원",
+      "26,000원",
+      "31,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "피자 중 피자 중",
+      "수제 피자 중 치즈떡볶이 중",
+      "피치 떡",
+      "떡 피스",
+      "피떡 바"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Among pizza.",
+      "Among homemade pizza and cheese tteokbokki,",
+      "Peach rice cake.",
+      "Rice cake piece.",
+      "Blood rice cake bar."
+    ],
+    "SD_ID": 15197,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1888232472",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15198,
+    "REST_NM": "가수원아싸대패삼겹살",
+    "ADDR": "대전광역시 서구 가수원동 776-1",
+    "DADDR": "",
+    "TELNO": "042-721-9200",
+    "OPEN_HR_INFO": "매일 17:00~24:00 일요일휴무",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "대패삼겹살",
+    "LAT": "36.30036461",
+    "LOT": "127.3507597",
+    "MENU_ID": 15198,
+    "MENU_KORN_NM": [
+      "대패삼겹살",
+      "생삼겹살",
+      "항정살",
+      "우대패삼겹살"
+    ],
+    "MENU_ENG_NM": [
+      "dae-pae-sam-gyeop-sal",
+      "saeng-sam-gyeop-sal",
+      "hang-jung-sal",
+      "woo-dae-pae-sam-gyeop-sal"
+    ],
+    "MENU_AMT": [
+      "3,500원",
+      "9,900원",
+      "4,900원",
+      "4,900원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "대패 삼겹살",
+      "생 삼겹살",
+      "항정살",
+      "우대 패 삼겹살"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Plain pork belly.",
+      "Raw pork belly.",
+      "Pork neck.",
+      "Pork belly meat with preferential treatment."
+    ],
+    "SD_ID": 15198,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1279250648",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15199,
+    "REST_NM": "미도리컬러",
+    "ADDR": "대전광역시 동구 소제동 299-79",
+    "DADDR": "",
+    "TELNO": "",
+    "OPEN_HR_INFO": "매일 11:30-22:00 |  21:00 라스트오더",
+    "TOB_INFO": "카페·디저트",
+    "RPRS_MENU_NM": "크림슈페너",
+    "LAT": "36.3363114",
+    "LOT": "127.4367332",
+    "MENU_ID": 15199,
+    "MENU_KORN_NM": [
+      "크림슈페너",
+      "레몬에이드",
+      "자몽에이드",
+      "딸기라떼",
+      "초코라떼",
+      "말차라떼",
+      "미도리크로플",
+      "인절미크로플",
+      "크림치즈생딸기",
+      "크림치즈체리"
+    ],
+    "MENU_ENG_NM": [
+      "keoo-rim-syoo-pe-no",
+      "re-mon-eh-yi-deoo",
+      "ja-mong-eh-yi-deoo",
+      "ttal-ki-ra-tte",
+      "cho-kko-ra-tte",
+      "mal-cha-ra-tte",
+      "mi-do-re-keoo-ro-peul",
+      "in-jeol-mi-keoo-ro-peul",
+      "keoo-rim-chi-jeoo-saeng-ttal-ki",
+      "keoo-rim-chi-jeoo-che-re"
+    ],
+    "MENU_AMT": [
+      "6,500원",
+      "6,000원",
+      "6,000원",
+      "6,000원",
+      "6,000원",
+      "6,000원",
+      "9,000원",
+      "9,000원",
+      "9,500원",
+      "9,500원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "크림슈 페너",
+      "레몬에이드",
+      "자몽 이드",
+      "딸기 라떼",
+      "초코 라떼",
+      "말차 라떼",
+      "미도 리크",
+      "인절미",
+      "크림 치즈 생 딸기",
+      "크림 치즈 체리"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Cream spanner.",
+      "Lemonade",
+      "Grapefruit Eyed.",
+      "Strawberry latte.",
+      "Chocolate latte.",
+      "Malcha latte.",
+      "Mido Leake.",
+      "Injeolmi",
+      "Cream cheese, strawberry.",
+      "Cream cheese cherry."
+    ],
+    "SD_ID": 15199,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1144589562",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15200,
+    "REST_NM": "고기듬뿍꽃돼지&레드웨건",
+    "ADDR": "대전광역시 서구 월평동 974",
+    "DADDR": "",
+    "TELNO": "",
+    "OPEN_HR_INFO": "매일 12:00~00:00 매주 월요일 12:00~19:30",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "삼겹살(250g)1인세트",
+    "LAT": "36.355461",
+    "LOT": "127.3621039",
+    "MENU_ID": 15200,
+    "MENU_KORN_NM": [
+      "삼겹살(25)1인세트",
+      "삼겹살(5)2인세트",
+      "고기듬뿍세트",
+      "고기폭격세트"
+    ],
+    "MENU_ENG_NM": [
+      "sam-gyeop-sal-(2-5)-1-in-sei-teoo",
+      "sam-gyeop-sal-(5)-2-in-sei-teoo",
+      "go-ki-deum-ppuk-sei-teoo",
+      "go-ki-pok-gyeok-sei-teoo"
+    ],
+    "MENU_AMT": [
+      "13,900원",
+      "20,900원",
+      "27,900원",
+      "34,900원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "삼겹살 인 세트",
+      "삼겹살 인 세트",
+      "고기 듬뿍 세트",
+      "고기 폭격 세트"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Pork belly in set.",
+      "Pork belly in set.",
+      "A set of meat.",
+      "Meat bombardment set."
+    ],
+    "SD_ID": 15200,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1271600606",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15201,
+    "REST_NM": "시골밥상이레",
+    "ADDR": "대전광역시 서구 도마동 184-15",
+    "DADDR": "",
+    "TELNO": "042-586-1228",
+    "OPEN_HR_INFO": "",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "시골밥상",
+    "LAT": "36.31205976",
+    "LOT": "127.3799085",
+    "MENU_ID": 15201,
+    "MENU_KORN_NM": [
+      "시골밥상",
+      "생삼겹살",
+      "동태찌개",
+      "김치찌개",
+      "고등어조림"
+    ],
+    "MENU_ENG_NM": [
+      "si-gol-bap-sang",
+      "saeng-sam-gyeop-sal",
+      "dong-tae-jji-gae",
+      "gim-chi-jji-gae",
+      "go-deung-o-jo-rim"
+    ],
+    "MENU_AMT": [
+      "6,000원",
+      "11,000원",
+      "8,000원",
+      "7,000원",
+      "8,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "시골 밥상",
+      "생 삼겹살",
+      "동태 찌개",
+      "김치찌개",
+      "고등어 조림"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Countryside meal award.",
+      "Raw pork belly.",
+      "Stew made with frozen pollack",
+      "Kimchi stew",
+      "Braised mackerel."
+    ],
+    "SD_ID": 15201,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1444086962",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15202,
+    "REST_NM": "고향촌",
+    "ADDR": "대전광역시 중구 은행동 138-1",
+    "DADDR": "",
+    "TELNO": "042-252-0719",
+    "OPEN_HR_INFO": "",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "가정식백반",
+    "LAT": "36.32926605",
+    "LOT": "127.4254272",
+    "MENU_ID": 15202,
+    "MENU_KORN_NM": [
+      "가정식백반",
+      "생삼겹살",
+      "불고기 정식",
+      "갈치조림 정식",
+      "검은콩 콩국수"
+    ],
+    "MENU_ENG_NM": [
+      "ga-jung-sik-baek-ban",
+      "saeng-sam-gyeop-sal",
+      "bul-go-ki jung-sik",
+      "gal-chi-jo-rim jung-sik",
+      "geom-eun-kong kong-guk-soo"
+    ],
+    "MENU_AMT": [
+      "6,000원",
+      "10,000원",
+      "8,000원",
+      "11,000원",
+      "6,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "가정식 백반",
+      "생 삼겹살",
+      "불고기 정식",
+      "갈치 조림 정식",
+      "콩 콩국수"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Home-cooked meal.",
+      "Raw pork belly.",
+      "Bulgogi set.",
+      "Braised beltfish.",
+      "Kongkong-guksu."
+    ],
+    "SD_ID": 15202,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/36414113",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15203,
+    "REST_NM": "감탄떡볶이 롯데마트노은점",
+    "ADDR": "대전광역시 유성구 하기동 519",
+    "DADDR": "",
+    "TELNO": "",
+    "OPEN_HR_INFO": "",
+    "TOB_INFO": "분식",
+    "RPRS_MENU_NM": "쌀/밀떡볶이",
+    "LAT": "36.3841989",
+    "LOT": "127.321661",
+    "MENU_ID": 15203,
+    "MENU_KORN_NM": [
+      "쌀밀떡볶이",
+      "바삭튀김",
+      "찰순대",
+      "허브탕수육",
+      "칠리탕수육",
+      "부산어묵",
+      "더블치즈떡볶이",
+      "감탄우동",
+      "새우튀김우동",
+      "어묵우동",
+      "꽉찬꼬마김밥",
+      "감자튀김",
+      "1인세트",
+      "알찬세트",
+      "우동세트",
+      "탕수육세트"
+    ],
+    "MENU_ENG_NM": [
+      "ssal-mil-tteok-bok-yi",
+      "bah-sak-twi-gim",
+      "chal-sun-dae",
+      "ho-beoo-tang-soo-yuk",
+      "chil-re-tang-soo-yuk",
+      "boo-san-o-muk",
+      "de-beul-chi-jeoo-tteok-bok-yi",
+      "gahm-tan-woo-dong",
+      "sae-woo-twi-gim-woo-dong",
+      "o-muk-woo-dong",
+      "kkwak-chan-kko-mah-gim-bap",
+      "gahm-ja-twi-gim",
+      "1-in-sei-teoo",
+      "al-chan-sei-teoo",
+      "woo-dong-sei-teoo",
+      "tang-soo-yuk-sei-teoo"
+    ],
+    "MENU_AMT": [
+      "변동가격(업주문의)",
+      "변동가격(업주문의)",
+      "변동가격(업주문의)",
+      "변동가격(업주문의)",
+      "변동가격(업주문의)",
+      "변동가격(업주문의)",
+      "변동가격(업주문의)",
+      "변동가격(업주문의)",
+      "변동가격(업주문의)",
+      "변동가격(업주문의)",
+      "변동가격(업주문의)",
+      "변동가격(업주문의)",
+      "변동가격(업주문의)",
+      "변동가격(업주문의)",
+      "변동가격(업주문의)",
+      "변동가격(업주문의)"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "쌀밀 떡볶이",
+      "바삭 튀김",
+      "찰 순대",
+      "허브 탕수육",
+      "칠리 탕수육",
+      "부산 어묵",
+      "더블 치즈떡볶이",
+      "감탄 우동",
+      "새우 튀김 우동",
+      "어묵 우동",
+      "꼬마 김밥",
+      "감자 튀김",
+      "인 세트",
+      "세트",
+      "우동 세트",
+      "탕수육 세트"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Rice flour tteokbokki.",
+      "Crispy fries.",
+      "Sticky soondae.",
+      "Herb sweet and sour pork.",
+      "Chili sweet and sour pork.",
+      "Busan fish cake.",
+      "Double cheese tteokbokki.",
+      "Udon in awe. Udon.",
+      "Fried shrimp udon.",
+      "Fish cake udon.",
+      "Mini kimbap.",
+      "French fries",
+      "In set.",
+      "set",
+      "Udon set.",
+      "Sweet and sour pork set."
+    ],
+    "SD_ID": 15203,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/38227132",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15204,
+    "REST_NM": "부뚜막",
+    "ADDR": "대전광역시 중구 사정동 401",
+    "DADDR": "",
+    "TELNO": "",
+    "OPEN_HR_INFO": "",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "",
+    "LAT": "36.2963929",
+    "LOT": "127.384849",
+    "MENU_ID": 15204,
+    "MENU_KORN_NM": [
+      
+    ],
+    "MENU_ENG_NM": [
+      
+    ],
+    "MENU_AMT": [
+      
+    ],
+    "MENU_KORN_ADD_INFO": [
+      
+    ],
+    "MENU_ENG_ADD_INFO": [
+      
+    ],
+    "SD_ID": 15204,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1779378859",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15205,
+    "REST_NM": "숙이네닭내장탕",
+    "ADDR": "대전광역시 중구 문창동 371-1",
+    "DADDR": "",
+    "TELNO": "042-284-8878",
+    "OPEN_HR_INFO": "",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "닭내장탕-중",
+    "LAT": "36.31434962",
+    "LOT": "127.4384498",
+    "MENU_ID": 15205,
+    "MENU_KORN_NM": [
+      "닭내장탕중",
+      "닭내장탕대",
+      "닭도리탕",
+      "토종 닭도리탕",
+      "닭똥집"
+    ],
+    "MENU_ENG_NM": [
+      "dak-nae-jang-tang-joong",
+      "dak-nae-jang-tang-dae",
+      "dak-do-re-tang",
+      "to-jong dak-do-re-tang",
+      "dak-ttong-jip"
+    ],
+    "MENU_AMT": [
+      "22,000원",
+      "30,000원",
+      "30,000원",
+      "40,000원",
+      "10,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "닭 장탕",
+      "닭 장탕",
+      "닭도리탕",
+      "토종 닭도리탕",
+      "닭똥집"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Spicy braised chicken.",
+      "Spicy braised chicken.",
+      "Chicken stew.",
+      "Korean spicy chicken stew.",
+      "chicken gizzard"
+    ],
+    "SD_ID": 15205,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/36468982",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15206,
+    "REST_NM": "김가네돌구이",
+    "ADDR": "대전광역시 유성구 송강동 186-1",
+    "DADDR": "",
+    "TELNO": "042-936-5293",
+    "OPEN_HR_INFO": "매일 11:00~22:00 재료준비 14:00~16:00",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "생삼겹살",
+    "LAT": "36.433083",
+    "LOT": "127.3865319",
+    "MENU_ID": 15206,
+    "MENU_KORN_NM": [
+      "생삼겹살"
+    ],
+    "MENU_ENG_NM": [
+      "saeng-sam-gyeop-sal"
+    ],
+    "MENU_AMT": [
+      "11,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "생 삼겹살"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Raw pork belly."
+    ],
+    "SD_ID": 15206,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1705010192",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15208,
+    "REST_NM": "엄니 40년 전통육개장",
+    "ADDR": "대전광역시 중구 부사동 94-61",
+    "DADDR": "1층(부사동)",
+    "TELNO": "042-274-5232",
+    "OPEN_HR_INFO": "",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "",
+    "LAT": "36.31830064",
+    "LOT": "127.4321258",
+    "MENU_ID": 15208,
+    "MENU_KORN_NM": [
+      
+    ],
+    "MENU_ENG_NM": [
+      
+    ],
+    "MENU_AMT": [
+      
+    ],
+    "MENU_KORN_ADD_INFO": [
+      
+    ],
+    "MENU_ENG_ADD_INFO": [
+      
+    ],
+    "SD_ID": 15208,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1432014044",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15209,
+    "REST_NM": "매봉골",
+    "ADDR": "대전광역시 서구 갈마동 391-22",
+    "DADDR": "",
+    "TELNO": "042-536-8382",
+    "OPEN_HR_INFO": "",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "",
+    "LAT": "36.34399514",
+    "LOT": "127.3668229",
+    "MENU_ID": 15209,
+    "MENU_KORN_NM": [
+      
+    ],
+    "MENU_ENG_NM": [
+      
+    ],
+    "MENU_AMT": [
+      
+    ],
+    "MENU_KORN_ADD_INFO": [
+      
+    ],
+    "MENU_ENG_ADD_INFO": [
+      
+    ],
+    "SD_ID": 15209,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/16206857",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15210,
+    "REST_NM": "그집족발",
+    "ADDR": "대전광역시 유성구 원내동 79-12",
+    "DADDR": "",
+    "TELNO": "042-544-4449",
+    "OPEN_HR_INFO": "",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "",
+    "LAT": "36.30251798",
+    "LOT": "127.3184533",
+    "MENU_ID": 15210,
+    "MENU_KORN_NM": [
+      
+    ],
+    "MENU_ENG_NM": [
+      
+    ],
+    "MENU_AMT": [
+      
+    ],
+    "MENU_KORN_ADD_INFO": [
+      
+    ],
+    "MENU_ENG_ADD_INFO": [
+      
+    ],
+    "SD_ID": 15210,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1097381623",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15211,
+    "REST_NM": "낙원칼국수",
+    "ADDR": "대전광역시 유성구 신성동 126-26",
+    "DADDR": "",
+    "TELNO": "042-862-1177",
+    "OPEN_HR_INFO": "매일 11:00~21:00 첫째 셋째 주말 휴무",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "",
+    "LAT": "36.39047517",
+    "LOT": "127.350148",
+    "MENU_ID": 15211,
+    "MENU_KORN_NM": [
+      
+    ],
+    "MENU_ENG_NM": [
+      
+    ],
+    "MENU_AMT": [
+      
+    ],
+    "MENU_KORN_ADD_INFO": [
+      
+    ],
+    "MENU_ENG_ADD_INFO": [
+      
+    ],
+    "SD_ID": 15211,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/15970224",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15212,
+    "REST_NM": "동경참치 유성점",
+    "ADDR": "대전광역시 유성구 봉명동 445-16",
+    "DADDR": "",
+    "TELNO": "042-825-3785",
+    "OPEN_HR_INFO": "매일 12:00~02:00",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "실장스페셜",
+    "LAT": "36.35540983",
+    "LOT": "127.3398161",
+    "MENU_ID": 15212,
+    "MENU_KORN_NM": [
+      "실장스페셜",
+      "로얄참치",
+      "골드참치",
+      "특참치초밥",
+      "모듬참치초밥"
+    ],
+    "MENU_ENG_NM": [
+      "sil-jang-seoo-pe-syeol",
+      "ro-yal-cham-chi",
+      "gol-deoo-cham-chi",
+      "teuk-cham-chi-cho-bap",
+      "mo-deum-cham-chi-cho-bap"
+    ],
+    "MENU_AMT": [
+      "110,000원",
+      "90,000원",
+      "70,000원",
+      "20,000원",
+      "10,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "실장 스페셜",
+      "로얄 참치",
+      "골드 참치",
+      "특 참치초밥",
+      "듬 참치초밥"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Director special.",
+      "Royal tuna.",
+      "Gold tuna.",
+      "Special tuna sushi.",
+      "Deum Tuna Sushi."
+    ],
+    "SD_ID": 15212,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/15942012",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15213,
+    "REST_NM": "옥천집",
+    "ADDR": "대전광역시 중구 대사동 248-302",
+    "DADDR": "",
+    "TELNO": "042-254-5554",
+    "OPEN_HR_INFO": "",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "보신탕",
+    "LAT": "36.3221415",
+    "LOT": "127.4173304",
+    "MENU_ID": 15213,
+    "MENU_KORN_NM": [
+      "보신탕",
+      "특보신탕",
+      "수육 대",
+      "수육 소",
+      "석쇠영양구이 대"
+    ],
+    "MENU_ENG_NM": [
+      "bo-sin-tang",
+      "teuk-bo-sin-tang",
+      "soo-yuk dae",
+      "soo-yuk so",
+      "seok-soe-young-yang-goo-yi dae"
+    ],
+    "MENU_AMT": [
+      "10,000원",
+      "13,000원",
+      "60,000원",
+      "40,000원",
+      "65,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "보신탕",
+      "특보 탕",
+      "수육",
+      "수육 소",
+      "석쇠 영양 구이"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Bosingtang.",
+      "Special treasure soup.",
+      "boiled pork",
+      "Boiled beef.",
+      "Grill and nutritious grilled meat."
+    ],
+    "SD_ID": 15213,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/16079123",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15215,
+    "REST_NM": "나주식당",
+    "ADDR": "대전광역시 대덕구 대화동 289-1",
+    "DADDR": "C동 22호 (대화동 289-1번지, 산업용재유통상가)",
+    "TELNO": "042-670-8044",
+    "OPEN_HR_INFO": "",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "",
+    "LAT": "36.36531442",
+    "LOT": "127.4029597",
+    "MENU_ID": 15215,
+    "MENU_KORN_NM": [
+      
+    ],
+    "MENU_ENG_NM": [
+      
+    ],
+    "MENU_AMT": [
+      
+    ],
+    "MENU_KORN_ADD_INFO": [
+      
+    ],
+    "MENU_ENG_ADD_INFO": [
+      
+    ],
+    "SD_ID": 15215,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1643755560",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15216,
+    "REST_NM": "바다양푼이동태탕 대전오정점",
+    "ADDR": "대전광역시 대덕구 오정동 446-5",
+    "DADDR": "",
+    "TELNO": "042-624-9252",
+    "OPEN_HR_INFO": "",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "동태탕",
+    "LAT": "36.35083112",
+    "LOT": "127.4186471",
+    "MENU_ID": 15216,
+    "MENU_KORN_NM": [
+      "동태탕"
+    ],
+    "MENU_ENG_NM": [
+      "dong-tae-tang"
+    ],
+    "MENU_AMT": [
+      "7,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "동태 탕"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Pollack soup"
+    ],
+    "SD_ID": 15216,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1517763237",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15217,
+    "REST_NM": "진잠원조선산곱창",
+    "ADDR": "대전광역시 유성구 원내동 228-6",
+    "DADDR": "1층 102호",
+    "TELNO": "042-544-0504",
+    "OPEN_HR_INFO": "",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "곱창전골 1인분",
+    "LAT": "36.3001223",
+    "LOT": "127.3196857",
+    "MENU_ID": 15217,
+    "MENU_KORN_NM": [
+      "곱창전골 1인분",
+      "찰순대 1인분"
+    ],
+    "MENU_ENG_NM": [
+      "gop-chang-jeon-gol 1-in-bun",
+      "chal-sun-dae 1-in-bun"
+    ],
+    "MENU_AMT": [
+      "8,000원",
+      "6,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "곱창전골 인분",
+      "찰 순대 인분"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "The serving of gopchang hot pot.",
+      "One serving of sundae."
+    ],
+    "SD_ID": 15217,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1201677989",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15218,
+    "REST_NM": "무겐돈까스",
+    "ADDR": "대전광역시 중구 오류동 171-4",
+    "DADDR": "",
+    "TELNO": "042-673-0301",
+    "OPEN_HR_INFO": "매일 11:00~20:30 쉬는시간 1500~1700",
+    "TOB_INFO": "일식",
+    "RPRS_MENU_NM": "돈까스+우동",
+    "LAT": "36.32282419",
+    "LOT": "127.4049161",
+    "MENU_ID": 15218,
+    "MENU_KORN_NM": [
+      "돈까스+우동",
+      "생선까스+우동",
+      "카레돈까스+우동",
+      "김치덮밥+우동",
+      "돈까스",
+      "치즈돈까스",
+      "생선까스",
+      "카레돈까스",
+      "함박스테이크"
+    ],
+    "MENU_ENG_NM": [
+      "don-kkah-seoo+woo-dong",
+      "saeng-sun-kkah-seoo+woo-dong",
+      "kah-re-don-kkah-seoo+woo-dong",
+      "gim-chi-deop-bap+woo-dong",
+      "don-kkah-seoo",
+      "chi-jeoo-don-kkah-seoo",
+      "saeng-sun-kkah-seoo",
+      "kah-re-don-kkah-seoo",
+      "ham-bak-seoo-te-yi-keoo"
+    ],
+    "MENU_AMT": [
+      "9,000원",
+      "10,000원",
+      "10,000원",
+      "9,000원",
+      "7,000원",
+      "8,000원",
+      "8,000원",
+      "8,000원",
+      "9,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "돈까스 우동",
+      "생선 까스 우동",
+      "카레돈까스 우동",
+      "김치 밥 우동",
+      "돈까스",
+      "치즈 돈까스",
+      "생선 까스",
+      "카레돈까스",
+      "함박스테이크"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Pork cutlet udon.",
+      "Fish cutlet udon.",
+      "Curry pork cutlet udon.",
+      "Kimchi rice udon.",
+      "Pork cutlet",
+      "Cheese pork cutlet.",
+      "Fish cutlets",
+      "Curry pork cutlet.",
+      "Hamburg steak."
+    ],
+    "SD_ID": 15218,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/31382300",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15219,
+    "REST_NM": "쌈꾼",
+    "ADDR": "대전광역시 서구 변동 43-9",
+    "DADDR": "",
+    "TELNO": "042-523-3393",
+    "OPEN_HR_INFO": "매일 10:30~09:30",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "묵은지갈비김치찌개",
+    "LAT": "36.32319906",
+    "LOT": "127.3846885",
+    "MENU_ID": 15219,
+    "MENU_KORN_NM": [
+      "묵은지갈비김치찌개",
+      "돼지두루치기(대)",
+      "돼지두루치기(소)",
+      "삼겹살",
+      "항정살",
+      "청국장",
+      "묵은지갈비김치찌개+돼지두루치기",
+      "젓갈정식",
+      "묵은지 꽁치김치찌개+청국장",
+      "젓갈단품",
+      "대패삼겹살 (1)",
+      "쌈꾼주물럭 (18)",
+      "계란말이",
+      "라면사리",
+      "볶음밥",
+      "청국장(고기주문시)",
+      "된장찌개(고기주문시)",
+      "2인세트메뉴"
+    ],
+    "MENU_ENG_NM": [
+      "muk-eun-ji-gal-bi-gim-chi-jji-gae",
+      "dwae-ji-doo-roo-chi-ki-(dae)",
+      "dwae-ji-doo-roo-chi-ki-(so)",
+      "sam-gyeop-sal",
+      "hang-jung-sal",
+      "cheong-guk-jang",
+      "muk-eun-ji-gal-bi-gim-chi-jji-gae+dwae-ji-doo-roo-chi-ki",
+      "jeot-gal-jung-sik",
+      "muk-eun-ji kkong-chi-gim-chi-jji-gae+cheong-guk-jang",
+      "jeot-gal-dan-pum",
+      "dae-pae-sam-gyeop-sal (1)",
+      "ssam-kkun-joo-mul-reok (1-8)",
+      "gehh-ran-mal-yi",
+      "ra-myun-sah-re",
+      "bok-eum-bap",
+      "cheong-guk-jang-(go-ki-joo-moon-si)",
+      "doen-jang-jji-gae-(go-ki-joo-moon-si)",
+      "2-in-sei-teoo-me-nyoo"
+    ],
+    "MENU_AMT": [
+      "9,000원",
+      "22,000원",
+      "15,000원",
+      "12,000원",
+      "13,000원",
+      "3,000원",
+      "22,000원",
+      "12,000원",
+      "8,000원",
+      "10,000원",
+      "3,900원",
+      "9,000원",
+      "6,000원",
+      "2,000원",
+      "2,000원",
+      "3,000원",
+      "3,000원",
+      "27,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "묵은지 갈비 김치찌개",
+      "돼지 두루치기",
+      "돼지 두루치기 소",
+      "삼겹살",
+      "항정살",
+      "청국장",
+      "묵은지 갈비 김치찌개 돼지 두루치기",
+      "젓갈 정식",
+      "묵은지 꽁치 김치찌개 청국장",
+      "젓갈 품",
+      "대패 삼겹살",
+      "쌈 주물 럭",
+      "계란말이",
+      "라면 사리",
+      "볶음밥",
+      "청국장 시",
+      "된장찌개 시",
+      "인 세트 메뉴"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Kimchi stew with aged kimchi.",
+      "Stir-fried pork.",
+      "Pork stir-fried beef.",
+      "Pork belly",
+      "Pork neck.",
+      "Cheonggukjang",
+      "Kimchi stew with aged kimchi and pork.",
+      "Salted seafood set.",
+      "Mugeunji saury, kimchi stew, cheonggukjang.",
+      "Salted seafood.",
+      "Plain pork belly.",
+      "Stir-fried vegetables with vegetables.",
+      "Rolled Omelet",
+      "Ramen noodles.",
+      "fried rice",
+      "\"Cheonggukjangsi\". (Korean fermented soybean paste stew)",
+      "Doenjang-jjigae is...",
+      "In set menu."
+    ],
+    "SD_ID": 15219,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/331559110",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15220,
+    "REST_NM": "카페말론",
+    "ADDR": "대전광역시 대덕구 송촌동 476-1",
+    "DADDR": "S117호, S118호",
+    "TELNO": "",
+    "OPEN_HR_INFO": "토요일 11:00~22:00 | 금요일 11:00~22:00 | 목요일 11:00~22:00 | 수요일 11:00~22:00 | 화요일 11:00~22:00 | 월요일 11:00~22:00 | 일요일 휴무",
+    "TOB_INFO": "카페·디저트",
+    "RPRS_MENU_NM": "스콘",
+    "LAT": "36.3644599",
+    "LOT": "127.4400197",
+    "MENU_ID": 15220,
+    "MENU_KORN_NM": [
+      "스콘"
+    ],
+    "MENU_ENG_NM": [
+      "seoo-kon"
+    ],
+    "MENU_AMT": [
+      "2,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "스콘"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Scone."
+    ],
+    "SD_ID": 15220,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1374050196",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15221,
+    "REST_NM": "날마다행복오리",
+    "ADDR": "대전광역시 대덕구 석봉동 319-9",
+    "DADDR": "",
+    "TELNO": "042-935-9533",
+    "OPEN_HR_INFO": "",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "오리주물럭",
+    "LAT": "36.4442405",
+    "LOT": "127.4272233",
+    "MENU_ID": 15221,
+    "MENU_KORN_NM": [
+      "오리주물럭"
+    ],
+    "MENU_ENG_NM": [
+      "o-re-joo-mul-reok"
+    ],
+    "MENU_AMT": [
+      "23,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "오리 주물 럭"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Stir-fried duck."
+    ],
+    "SD_ID": 15221,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1053855495",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15222,
+    "REST_NM": "무진골생고기식당",
+    "ADDR": "대전광역시 대덕구 신탄진동 114-4",
+    "DADDR": "",
+    "TELNO": "042-935-2936",
+    "OPEN_HR_INFO": "매일 09:00~21:30 | 평일 09:00~21:30 | 주말 09:00~21:30",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "삼겹살 200g",
+    "LAT": "36.45257796",
+    "LOT": "127.4278811",
+    "MENU_ID": 15222,
+    "MENU_KORN_NM": [
+      "삼겹살 2 ",
+      "목살 2",
+      "돼지갈비 2",
+      "갈매기 2",
+      "항정살 2",
+      "백반",
+      "김치찌개"
+    ],
+    "MENU_ENG_NM": [
+      "sam-gyeop-sal 2- ",
+      "mok-sal 2",
+      "dwae-ji-gal-bi 2",
+      "gal-mae-ki 2",
+      "hang-jung-sal 2",
+      "baek-ban",
+      "gim-chi-jji-gae"
+    ],
+    "MENU_AMT": [
+      "12,000원",
+      "12,000원",
+      "12,000원",
+      "12,000원",
+      "12,000원",
+      "7,000원",
+      "7,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "삼겹살",
+      "목살",
+      "돼지갈비",
+      "갈매기",
+      "항정살",
+      "백반",
+      "김치찌개"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Pork belly",
+      "Pork Neck",
+      "Pork ribs",
+      "Gull",
+      "Pork neck.",
+      "Korean side dishes.",
+      "Kimchi stew"
+    ],
+    "SD_ID": 15222,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/11672651",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15223,
+    "REST_NM": "제주흑돼지들녘",
+    "ADDR": "대전광역시 서구 우명동 9",
+    "DADDR": "",
+    "TELNO": "",
+    "OPEN_HR_INFO": "매일 11:30~20:00 (3시~5시브레이크타임)(8시까지 오시면 9시까지 식사가능)",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "제주흑돼지생구이(600g)한근",
+    "LAT": "36.23019466",
+    "LOT": "127.302496",
+    "MENU_ID": 15223,
+    "MENU_KORN_NM": [
+      "제주흑돼지생구이(6)한근",
+      "흑돼지김치찌개(2인이상주문)",
+      "공기밥+된장찌개",
+      "냉면",
+      "비빔냉면"
+    ],
+    "MENU_ENG_NM": [
+      "je-joo-heuk-dwae-ji-saeng-goo-yi-(6)-han-gun",
+      "heuk-dwae-ji-gim-chi-jji-gae-(2-in-yi-sang-joo-moon)",
+      "gong-ki-bap+doen-jang-jji-gae",
+      "naeng-myun",
+      "bi-bim-naeng-myun"
+    ],
+    "MENU_AMT": [
+      "29,000원",
+      "7,000원",
+      "1,000원",
+      "4,000원",
+      "5,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "제주 돼지 생 구이",
+      "돼지 김치찌개 인 이상 주문",
+      "공기밥 된장찌개",
+      "냉면",
+      "비빔냉면"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Grilled Jeju pork.",
+      "Order more than pork kimchi stew.",
+      "Doenjang-jjigae with rice.",
+      "Cold noodles",
+      "Spicy buckwheat noodles."
+    ],
+    "SD_ID": 15223,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1191539334",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15224,
+    "REST_NM": "카페달보드레",
+    "ADDR": "대전광역시 중구 태평동 329-6",
+    "DADDR": "",
+    "TELNO": "042-328-3926",
+    "OPEN_HR_INFO": "매일 10:00~22:00",
+    "TOB_INFO": "카페·디저트",
+    "RPRS_MENU_NM": "",
+    "LAT": "36.3246105",
+    "LOT": "127.3968067",
+    "MENU_ID": 15224,
+    "MENU_KORN_NM": [
+      
+    ],
+    "MENU_ENG_NM": [
+      
+    ],
+    "MENU_AMT": [
+      
+    ],
+    "MENU_KORN_ADD_INFO": [
+      
+    ],
+    "MENU_ENG_ADD_INFO": [
+      
+    ],
+    "SD_ID": 15224,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/34565490",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15225,
+    "REST_NM": "10시식당",
+    "ADDR": "대전광역시 서구 월평동 285-1",
+    "DADDR": "",
+    "TELNO": "042-486-7892",
+    "OPEN_HR_INFO": "영업일 평일 | 정기휴무 매주 토요일, 일요일 ",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "아구탕",
+    "LAT": "36.35849788",
+    "LOT": "127.3773072",
+    "MENU_ID": 15225,
+    "MENU_KORN_NM": [
+      "아구탕",
+      "동태탕",
+      "알탕",
+      "대구탕",
+      "아구찜 2인",
+      "대구뽈찜 2인",
+      "동태전(저녁메뉴)"
+    ],
+    "MENU_ENG_NM": [
+      "a-goo-tang",
+      "dong-tae-tang",
+      "al-tang",
+      "dae-goo-tang",
+      "a-goo-jjim 2-in",
+      "dae-goo-ppol-jjim 2-in",
+      "dong-tae-jeon-(jo-nyeok-me-nyoo)"
+    ],
+    "MENU_AMT": [
+      "8,000원",
+      "8,000원",
+      "8,000원",
+      "10,000원",
+      "27,000원",
+      "29,000원",
+      "10,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "아구 탕",
+      "동태 탕",
+      "알탕",
+      "대구 탕",
+      "아구찜 인",
+      "대구 뽈찜 인",
+      "동태 전 저녁 메뉴"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Steamed monkfish soup.",
+      "Pollack soup",
+      "Fish roe soup.",
+      "Daegu soup.",
+      "Steamed monkfish in.",
+      "Daegu Bboljjim in.",
+      "Pollack pancake for dinner."
+    ],
+    "SD_ID": 15225,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1364048136",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15226,
+    "REST_NM": "금산식당",
+    "ADDR": "대전광역시 서구 변동 77-11",
+    "DADDR": "",
+    "TELNO": "042-532-2387",
+    "OPEN_HR_INFO": "",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "",
+    "LAT": "36.32965438",
+    "LOT": "127.3719312",
+    "MENU_ID": 15226,
+    "MENU_KORN_NM": [
+      
+    ],
+    "MENU_ENG_NM": [
+      
+    ],
+    "MENU_AMT": [
+      
+    ],
+    "MENU_KORN_ADD_INFO": [
+      
+    ],
+    "MENU_ENG_ADD_INFO": [
+      
+    ],
+    "SD_ID": 15226,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/16131154",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15227,
+    "REST_NM": "베리신주쿠",
+    "ADDR": "대전광역시 유성구 어은동 113-16",
+    "DADDR": "",
+    "TELNO": "042-863-7339",
+    "OPEN_HR_INFO": "매일 11:30~21:00 Break time 14:30~16:30",
+    "TOB_INFO": "일식",
+    "RPRS_MENU_NM": "돈가스덮밥",
+    "LAT": "36.36308376",
+    "LOT": "127.3577356",
+    "MENU_ID": 15227,
+    "MENU_KORN_NM": [
+      "돈가스덮밥",
+      "돈가스우동",
+      "신주쿠돈가스",
+      "카레우동",
+      "야끼우동",
+      "돈가스카레덮밥",
+      "신주쿠몬테크리스토",
+      "맵고 달콤한 핫칠리 치즈돈가스",
+      "정말 매운 청양고추 돈가스우동",
+      "캠벨스프 크림치즈 돈가스우동",
+      "신주쿠 삼겹살 아보카도 페스토 덮밥",
+      "신주쿠 삼겹살 바질 페스토 덮밥",
+      "신주쿠 오므라이스"
+    ],
+    "MENU_ENG_NM": [
+      "don-ga-seoo-deop-bap",
+      "don-ga-seoo-woo-dong",
+      "sin-joo-koo-don-ga-seoo",
+      "kah-re-woo-dong",
+      "yah-kki-woo-dong",
+      "don-ga-seoo-kah-re-deop-bap",
+      "sin-joo-koo-mon-te-keoo-re-seoo-to",
+      "maep-go dal-kom-han hat-chil-re chi-jeoo-don-ga-seoo",
+      "jung-mal mae-woon cheong-yang-go-choo don-ga-seoo-woo-dong",
+      "kaem-bel-seoo-peoo keoo-rim-chi-jeoo don-ga-seoo-woo-dong",
+      "sin-joo-koo sam-gyeop-sal a-bo-kah-do pe-seoo-to deop-bap",
+      "sin-joo-koo sam-gyeop-sal bah-jil pe-seoo-to deop-bap",
+      "sin-joo-koo o-meoo-ra-yi-seoo"
+    ],
+    "MENU_AMT": [
+      "8,000원",
+      "8,000원",
+      "10,000원",
+      "9,000원",
+      "10,000원",
+      "10,000원",
+      "11,000원",
+      "11,000원",
+      "10,000원",
+      "11,000원",
+      "11,000원",
+      "11,000원",
+      "9,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "돈가스 밥",
+      "돈가스 우동",
+      "신주쿠 돈가스",
+      "카레 우동",
+      "끼 우동",
+      "돈가스 카레덮밥",
+      "신주쿠 몬테 크리스 토",
+      "맵 핫 칠리 치즈 돈가스",
+      "정말 청양고추 돈가스 우동",
+      "캠벨 스프 크림 치즈 돈가스 우동",
+      "신주쿠 삼겹살 아보카도 페스 토 밥",
+      "신주쿠 삼겹살 바질 페스 토 밥",
+      "신주쿠 오므라이스"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Pork cutlet rice.",
+      "Pork cutlet udon.",
+      "Shinjuku pork cutlet.",
+      "Curry udon.",
+      "Skewed udon.",
+      "Pork cutlet curry over rice.",
+      "Shinjuku Monte Christo.",
+      "Spicy hot chili cheese pork cutlet.",
+      "Spicy pepper pork cutlet udon.",
+      "Campbell Soup Cream Cheese Pork Cutlet Udon.",
+      "Shinjuku pork belly. Avocado pesto rice.",
+      "Shinjuku pork belly basil pesto rice.",
+      "Shinjuku omurice."
+    ],
+    "SD_ID": 15227,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/31059198",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15228,
+    "REST_NM": "그라티아",
+    "ADDR": "대전광역시 서구 관저동 1561-4",
+    "DADDR": "",
+    "TELNO": "070-7807-0420",
+    "OPEN_HR_INFO": "매일 10:30~21:00 매주 일요일 휴무(매월 첫주 토요일 휴무)",
+    "TOB_INFO": "양식",
+    "RPRS_MENU_NM": "파스타외",
+    "LAT": "36.2958002",
+    "LOT": "127.3392031",
+    "MENU_ID": 15228,
+    "MENU_KORN_NM": [
+      "파스타외"
+    ],
+    "MENU_ENG_NM": [
+      "pah-seoo-tah-oe"
+    ],
+    "MENU_AMT": [
+      "10,000~13,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "파스타 외"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Other than pasta."
+    ],
+    "SD_ID": 15228,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1294812359",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15229,
+    "REST_NM": "대양식당",
+    "ADDR": "대전광역시 동구 가양동 47-18",
+    "DADDR": "",
+    "TELNO": "042-625-8849",
+    "OPEN_HR_INFO": "",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "",
+    "LAT": "36.35356921",
+    "LOT": "127.4525076",
+    "MENU_ID": 15229,
+    "MENU_KORN_NM": [
+      
+    ],
+    "MENU_ENG_NM": [
+      
+    ],
+    "MENU_AMT": [
+      
+    ],
+    "MENU_KORN_ADD_INFO": [
+      
+    ],
+    "MENU_ENG_ADD_INFO": [
+      
+    ],
+    "SD_ID": 15229,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/16030602",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15231,
+    "REST_NM": "미라네전집",
+    "ADDR": "대전광역시 서구 갈마동 1399-1",
+    "DADDR": "",
+    "TELNO": "042-535-6143",
+    "OPEN_HR_INFO": "",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "",
+    "LAT": "36.34166688",
+    "LOT": "127.3775941",
+    "MENU_ID": 15231,
+    "MENU_KORN_NM": [
+      
+    ],
+    "MENU_ENG_NM": [
+      
+    ],
+    "MENU_AMT": [
+      
+    ],
+    "MENU_KORN_ADD_INFO": [
+      
+    ],
+    "MENU_ENG_ADD_INFO": [
+      
+    ],
+    "SD_ID": 15231,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1432509809",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15232,
+    "REST_NM": "바코드그릴",
+    "ADDR": "대전광역시 유성구 지족동 1028-1",
+    "DADDR": "",
+    "TELNO": "042-863-2277",
+    "OPEN_HR_INFO": "매일 17:00~22:00",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "이베리코꽃목살",
+    "LAT": "36.38675898",
+    "LOT": "127.3090748",
+    "MENU_ID": 15232,
+    "MENU_KORN_NM": [
+      "이베리코꽃목살",
+      "이베리코황제살",
+      "이베리코 플루마"
+    ],
+    "MENU_ENG_NM": [
+      "yi-be-re-kko-koch-mok-sal",
+      "yi-be-re-kko-hwang-je-sal",
+      "yi-be-re-kko peul-roo-mah"
+    ],
+    "MENU_AMT": [
+      "13,000원",
+      "14,000원",
+      "18,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "베리 코꽃목살",
+      "베리 코 황제 살",
+      "베리 코 플루 마"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Berry nose pork neck.",
+      "King Verico's flesh.",
+      "VERI COPLUMA."
+    ],
+    "SD_ID": 15232,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1998057251",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15233,
+    "REST_NM": "그림같은집",
+    "ADDR": "대전광역시 서구 도마동 132-5",
+    "DADDR": "",
+    "TELNO": "",
+    "OPEN_HR_INFO": "",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "",
+    "LAT": "36.31602953",
+    "LOT": "127.381103",
+    "MENU_ID": 15233,
+    "MENU_KORN_NM": [
+      
+    ],
+    "MENU_ENG_NM": [
+      
+    ],
+    "MENU_AMT": [
+      
+    ],
+    "MENU_KORN_ADD_INFO": [
+      
+    ],
+    "MENU_ENG_ADD_INFO": [
+      
+    ],
+    "SD_ID": 15233,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1676069041",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15234,
+    "REST_NM": "총체보리한우 대전점",
+    "ADDR": "대전광역시 서구 만년동 343",
+    "DADDR": "1층",
+    "TELNO": "042-482-0985",
+    "OPEN_HR_INFO": "평일 10:30~22:00 B.T 15:00~17:00 | 주말 10:30~22:00",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "1+ 명품한우등심,안심 400g",
+    "LAT": "36.36712365",
+    "LOT": "127.3817418",
+    "MENU_ID": 15234,
+    "MENU_KORN_NM": [
+      "1+ 명품한우등심안심 4",
+      "제주 흑돼지 오겹살",
+      "1+ 명품한우살치갈비살 4",
+      "1+ 명품한우채끝특수모듬 4",
+      "육사시미 (2)",
+      "육회 (2)",
+      "총체보리정식"
+    ],
+    "MENU_ENG_NM": [
+      "1-+ myung-pum-han-woo-deung-sim-an-sim 4",
+      "je-joo heuk-dwae-ji o-gyeop-sal",
+      "1-+ myung-pum-han-woo-sal-chi-gal-bi-sal 4",
+      "1-+ myung-pum-han-woo-chae-kkeut-teuk-soo-mo-deum 4",
+      "yuk-sah-si-mi (2)",
+      "yuk-hoe (2)",
+      "chong-che-bo-re-jung-sik"
+    ],
+    "MENU_AMT": [
+      "변동가격(업주문의)",
+      "13,000원",
+      "변동가격(업주문의)",
+      "변동가격(업주문의)",
+      "25,000원",
+      "20,000원",
+      "25,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "명품 한우 등심 안심",
+      "제주 돼지 겹살",
+      "명품 한우 갈비살",
+      "명품 한우 채끝 특수 듬",
+      "사시미",
+      "육회",
+      "체 보리 정식"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Luxury Korean beef sirloin and tenderloin.",
+      "Jeju pork belly.",
+      "Luxury Korean beef ribs.",
+      "Luxury Korean beef sirloin. Special Deum.",
+      "Sashimi.",
+      "Korean style raw beef",
+      "Chevrolet meal."
+    ],
+    "SD_ID": 15234,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/37111479",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15235,
+    "REST_NM": "맛고을",
+    "ADDR": "대전광역시 서구 괴정동 66-9",
+    "DADDR": "",
+    "TELNO": "042-527-8959",
+    "OPEN_HR_INFO": "매일 11:00~15:00 일요일 휴무",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "",
+    "LAT": "36.339306",
+    "LOT": "127.3816135",
+    "MENU_ID": 15235,
+    "MENU_KORN_NM": [
+      
+    ],
+    "MENU_ENG_NM": [
+      
+    ],
+    "MENU_AMT": [
+      
+    ],
+    "MENU_KORN_ADD_INFO": [
+      
+    ],
+    "MENU_ENG_ADD_INFO": [
+      
+    ],
+    "SD_ID": 15235,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/16155787",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15236,
+    "REST_NM": "동신수산",
+    "ADDR": "대전광역시 유성구 노은동 534-13",
+    "DADDR": "",
+    "TELNO": "042-476-9968",
+    "OPEN_HR_INFO": "매일 11:30~22:00 | 평일 14:00~17:00 브레이크타임 (주말.공휴일 3시부터4시)",
+    "TOB_INFO": "일식",
+    "RPRS_MENU_NM": "광어 中",
+    "LAT": "36.36739311",
+    "LOT": "127.3229244",
+    "MENU_ID": 15236,
+    "MENU_KORN_NM": [
+      "광어 ",
+      "광어 ",
+      "우럭 ",
+      "우럭 ",
+      "도미 ",
+      "도미 ",
+      "농어 ",
+      "농어 ",
+      "모듬회 ",
+      "모듬회 ",
+      "모듬회 ",
+      "모듬회 ",
+      "모듬물회 ",
+      "모듬물회 ",
+      "모듬물회 ",
+      "전복해신탕",
+      "전복해신탕 ",
+      "전복해물탕 ",
+      "전복해물탕 ",
+      "전복해물탕 ",
+      "랍스타코스요리2마리(찜버터야끼)",
+      "랍스타코스요리3마리(회찜버터야끼)",
+      "랍스타코스요리4마리(회찜버터야끼)",
+      "광어 ",
+      "우럭 ",
+      "도미 ",
+      "농어 "
+    ],
+    "MENU_ENG_NM": [
+      "gwang-o- ",
+      "gwang-o- ",
+      "woo-reok- ",
+      "woo-reok- ",
+      "do-mi- ",
+      "do-mi- ",
+      "nong-o- ",
+      "nong-o- ",
+      "mo-deum-hoe- ",
+      "mo-deum-hoe- ",
+      "mo-deum-hoe- ",
+      "mo-deum-hoe- ",
+      "mo-deum-mul-hoe- ",
+      "mo-deum-mul-hoe- ",
+      "mo-deum-mul-hoe- ",
+      "jeon-bok-hae-sin-tang",
+      "jeon-bok-hae-sin-tang- ",
+      "jeon-bok-hae-mul-tang- ",
+      "jeon-bok-hae-mul-tang- ",
+      "jeon-bok-hae-mul-tang- ",
+      "rap-seoo-tah-kko-seoo-yo-re-2-mah-re-(jjim-bo-to-yah-kki)",
+      "rap-seoo-tah-kko-seoo-yo-re-3-mah-re-(hoe-jjim-bo-to-yah-kki)",
+      "rap-seoo-tah-kko-seoo-yo-re-4-mah-re-(hoe-jjim-bo-to-yah-kki)",
+      "gwang-o- ",
+      "woo-reok- ",
+      "do-mi- ",
+      "nong-o- "
+    ],
+    "MENU_AMT": [
+      "110,000원",
+      "140,000원",
+      "110,000원",
+      "140,000원",
+      "120,000원",
+      "150,000원",
+      "120,000원",
+      "150,000원",
+      "85,000원",
+      "115,000원",
+      "145,000원",
+      "175,000원",
+      "55,000원",
+      "75,000원",
+      "95,000원",
+      "125,000원",
+      "155,000원",
+      "65,000원",
+      "85,000원",
+      "105,000원",
+      "110,000원",
+      "140,000원",
+      "170,000원",
+      "170,000원",
+      "170,000원",
+      "180,000원",
+      "180,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "광어",
+      "광어",
+      "우럭",
+      "우럭",
+      "도미",
+      "도미",
+      "농어",
+      "농어",
+      "모듬회",
+      "모듬회",
+      "모듬회",
+      "모듬회",
+      "듬 물회",
+      "듬 물회",
+      "듬 물회",
+      "전복 탕",
+      "전복 탕",
+      "전복 해물탕",
+      "전복 해물탕",
+      "전복 해물탕",
+      "랍 스타 코스 요리 마리 찜 버터 끼",
+      "랍 스타 코스 요리 마리 회찜 버터 끼",
+      "랍 스타 코스 요리 마리 회찜 버터 끼",
+      "광어",
+      "우럭",
+      "도미",
+      "농어"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "flatfish",
+      "flatfish",
+      "rockfish",
+      "rockfish",
+      "Sea bream",
+      "Sea bream",
+      "Farming and fishing.",
+      "Farming and fishing.",
+      "assorted sashimi.",
+      "assorted sashimi.",
+      "assorted sashimi.",
+      "assorted sashimi.",
+      "Cold Raw Fish Soup.",
+      "Cold Raw Fish Soup.",
+      "Cold Raw Fish Soup.",
+      "Abalone soup.",
+      "Abalone soup.",
+      "Abalone seafood stew.",
+      "Abalone seafood stew.",
+      "Abalone seafood stew.",
+      "Lobster course meal. Mari Jjim Butter Meal.",
+      "Lobster course meal. Mari, steamed raw fish. Butter talent.",
+      "Lobster course meal. Mari, steamed raw fish. Butter talent.",
+      "flatfish",
+      "rockfish",
+      "Sea bream",
+      "Farming and fishing."
+    ],
+    "SD_ID": 15236,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/36341121",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15237,
+    "REST_NM": "목척순대.막창",
+    "ADDR": "대전광역시 동구 용운동 351-3",
+    "DADDR": "",
+    "TELNO": "",
+    "OPEN_HR_INFO": "",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "",
+    "LAT": "36.32727085",
+    "LOT": "127.461179",
+    "MENU_ID": 15237,
+    "MENU_KORN_NM": [
+      
+    ],
+    "MENU_ENG_NM": [
+      
+    ],
+    "MENU_AMT": [
+      
+    ],
+    "MENU_KORN_ADD_INFO": [
+      
+    ],
+    "MENU_ENG_ADD_INFO": [
+      
+    ],
+    "SD_ID": 15237,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/19616509",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15239,
+    "REST_NM": "송림식당",
+    "ADDR": "대전광역시 동구 원동 41-6",
+    "DADDR": "2층 송림식당",
+    "TELNO": "042-257-6266",
+    "OPEN_HR_INFO": "매일 11:00~21:00 | 일요일 휴무",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "생삼겹살",
+    "LAT": "36.32803387",
+    "LOT": "127.4336309",
+    "MENU_ID": 15239,
+    "MENU_KORN_NM": [
+      "생삼겹살",
+      "김치찌개",
+      "생오리로스",
+      "항정살",
+      "한방오리탕",
+      "청국장",
+      "오징어찌개",
+      "된장찌개",
+      "동태찌개(2인 이상)"
+    ],
+    "MENU_ENG_NM": [
+      "saeng-sam-gyeop-sal",
+      "gim-chi-jji-gae",
+      "saeng-o-re-ro-seoo",
+      "hang-jung-sal",
+      "han-bahng-o-re-tang",
+      "cheong-guk-jang",
+      "o-jing-o-jji-gae",
+      "doen-jang-jji-gae",
+      "dong-tae-jji-gae-(2-in yi-sang)"
+    ],
+    "MENU_AMT": [
+      "9,000원",
+      "7,000원",
+      "8,000원",
+      "10,000원",
+      "45,000원",
+      "7,000원",
+      "7,000원",
+      "7,000원",
+      "7,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "생 삼겹살",
+      "김치찌개",
+      "생 오리 로스",
+      "항정살",
+      "방 오리탕",
+      "청국장",
+      "오징어 찌개",
+      "된장찌개",
+      "동태 찌개 인 이상"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Raw pork belly.",
+      "Kimchi stew",
+      "Raw duckling.",
+      "Pork neck.",
+      "Duck soup.",
+      "Cheonggukjang",
+      "Squid stew.",
+      "bean paste stew",
+      "As long as it's frozen pollack stew,"
+    ],
+    "SD_ID": 15239,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/36004393",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15240,
+    "REST_NM": "모모제인",
+    "ADDR": "대전광역시 중구 대흥동 412-1",
+    "DADDR": "1층",
+    "TELNO": "042-221-8321",
+    "OPEN_HR_INFO": "매일 12:00~23:00 (22:00 주문마감)",
+    "TOB_INFO": "카페·디저트",
+    "RPRS_MENU_NM": "수제케이크",
+    "LAT": "36.32488747",
+    "LOT": "127.4254796",
+    "MENU_ID": 15240,
+    "MENU_KORN_NM": [
+      "아메리카노",
+      "수제케이크",
+      "자두아이스티",
+      "",
+      "딸기라떼",
+      "청귤깔라만시에이드",
+      "패션파인주스",
+      "생과일주스"
+    ],
+    "MENU_ENG_NM": [
+      "a-me-re-kah-no",
+      "soo-je-ke-yi-keoo",
+      "ja-doo-a-yi-seoo-ti",
+      "",
+      "ttal-ki-ra-tte",
+      "cheong-gyul-kkal-ra-man-si-eh-yi-deoo",
+      "pae-syeon-pah-in-joo-seoo",
+      "saeng-gwah-il-joo-seoo"
+    ],
+    "MENU_AMT": [
+      "4,000원",
+      "6,800원",
+      "6,000원",
+      "6,000원",
+      "6,500원",
+      "6,000원",
+      "6,000원",
+      "6,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "아메리카노",
+      "수제 케이크",
+      "자두 아이스티",
+      "",
+      "딸기 라떼",
+      "청귤 이드",
+      "패션 주스",
+      "생 과일 주스"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Americano",
+      "Handmade cake.",
+      "Plum iced tea.",
+      " ",
+      "Strawberry latte.",
+      "Green tangerine id.",
+      "Fashion juice.",
+      "Fresh fruit juice."
+    ],
+    "SD_ID": 15240,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/21472691",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15241,
+    "REST_NM": "베베하우스",
+    "ADDR": "대전광역시 서구 복수동 638",
+    "DADDR": "",
+    "TELNO": "",
+    "OPEN_HR_INFO": "",
+    "TOB_INFO": "카페·디저트",
+    "RPRS_MENU_NM": "",
+    "LAT": "36.2991536",
+    "LOT": "127.3804974",
+    "MENU_ID": 15241,
+    "MENU_KORN_NM": [
+      
+    ],
+    "MENU_ENG_NM": [
+      
+    ],
+    "MENU_AMT": [
+      
+    ],
+    "MENU_KORN_ADD_INFO": [
+      
+    ],
+    "MENU_ENG_ADD_INFO": [
+      
+    ],
+    "SD_ID": 15241,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1875249178",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15242,
+    "REST_NM": "옛날칼국수",
+    "ADDR": "대전광역시 중구 유천동 304-3",
+    "DADDR": "",
+    "TELNO": "",
+    "OPEN_HR_INFO": "매일 09:00~22:00",
+    "TOB_INFO": "한식",
+    "RPRS_MENU_NM": "옛날칼국수",
+    "LAT": "36.31746598",
+    "LOT": "127.3960337",
+    "MENU_ID": 15242,
+    "MENU_KORN_NM": [
+      "옛날칼국수",
+      "들깨칼국수",
+      "제육덮밥",
+      "동태찌개",
+      "뼈다귀탕"
+    ],
+    "MENU_ENG_NM": [
+      "yet-nal-kal-guk-soo",
+      "deul-kkae-kal-guk-soo",
+      "je-yuk-deop-bap",
+      "dong-tae-jji-gae",
+      "ppyo-da-gwi-tang"
+    ],
+    "MENU_AMT": [
+      "5,000원",
+      "5,000원",
+      "7,000원",
+      "7,000원",
+      "6,000원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "옛날 칼국수",
+      "들깨 칼국수",
+      "제육 밥",
+      "동태 찌개",
+      "뼈 탕"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Old kalguksu.",
+      "Kalguksu with perilla seeds.",
+      "Spicy stir-fried pork and rice.",
+      "Stew made with frozen pollack",
+      "Bone soup."
+    ],
+    "SD_ID": 15242,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1911210678",
+    "SD_ADD_INFO": [
+      
+    ]
+  },
+  {
+    "REST_ID": 15243,
+    "REST_NM": "글로리데이즈",
+    "ADDR": "대전광역시 유성구 궁동 418-3",
+    "DADDR": "1층",
+    "TELNO": "042-825-9516",
+    "OPEN_HR_INFO": "매일 10:00~22:40",
+    "TOB_INFO": "카페·디저트",
+    "RPRS_MENU_NM": "아메리카노",
+    "LAT": "36.3613382",
+    "LOT": "127.3481366",
+    "MENU_ID": 15243,
+    "MENU_KORN_NM": [
+      "아메리카노",
+      "카페라떼",
+      "카푸치노",
+      "바닐라라떼",
+      "모카라떼",
+      "카라멜마끼아또",
+      "히말라야 솔트커피",
+      "흑임자라떼",
+      "아인슈패너",
+      "아포가토",
+      "콜드브루",
+      "딸기라떼",
+      "말차라떼",
+      "초코라떼",
+      "오곡라떼",
+      "수제 자몽티",
+      "수제 레몬티",
+      "수제 청귤티",
+      "수제 레몬에이드",
+      "수제 자몽에이드",
+      "수제 석류에이드",
+      "딸기요거트스무디",
+      "블루베리요거트스무디",
+      "초코 스무디",
+      "청포도주스",
+      "자몽 주스",
+      "오렌지주스",
+      "키위주스",
+      "수박주스"
+    ],
+    "MENU_ENG_NM": [
+      "a-me-re-kah-no",
+      "kah-pe-ra-tte",
+      "kah-pu-chi-no",
+      "bah-nil-ra-ra-tte",
+      "mo-kah-ra-tte",
+      "kah-ra-mel-mah-kki-a-tto",
+      "he-mal-ra-yah sol-teoo-ko-pi",
+      "heuk-im-ja-ra-tte",
+      "a-in-syoo-pae-no",
+      "a-po-ga-to",
+      "kol-deoo-beoo-roo",
+      "ttal-ki-ra-tte",
+      "mal-cha-ra-tte",
+      "cho-kko-ra-tte",
+      "o-gok-ra-tte",
+      "soo-je ja-mong-ti",
+      "soo-je re-mon-ti",
+      "soo-je cheong-gyul-ti",
+      "soo-je re-mon-eh-yi-deoo",
+      "soo-je ja-mong-eh-yi-deoo",
+      "soo-je seok-ryu-eh-yi-deoo",
+      "ttal-ki-yo-go-teoo-seoo-moo-di",
+      "beul-roo-be-re-yo-go-teoo-seoo-moo-di",
+      "cho-kko seoo-moo-di",
+      "cheong-po-do-joo-seoo",
+      "ja-mong joo-seoo",
+      "o-ren-ji-joo-seoo",
+      "ki-we-joo-seoo",
+      "soo-bak-joo-seoo"
+    ],
+    "MENU_AMT": [
+      "4,000원",
+      "4,500원",
+      "4,500원",
+      "5,000원",
+      "5,000원",
+      "5,000원",
+      "6,000원",
+      "6,000원",
+      "6,000원",
+      "6,000원",
+      "5,000원",
+      "5,000원",
+      "5,000원",
+      "5,000원",
+      "5,000원",
+      "5,000원",
+      "5,000원",
+      "5,000원",
+      "5,500원",
+      "5,500원",
+      "5,500원",
+      "6,000원",
+      "6,000원",
+      "6,000원",
+      "5,500원",
+      "5,500원",
+      "5,500원",
+      "5,500원",
+      "5,500원"
+    ],
+    "MENU_KORN_ADD_INFO": [
+      "아메리카노",
+      "카페라떼",
+      "카푸치노",
+      "바닐라 라떼",
+      "모카 라떼",
+      "카라멜 마끼아또",
+      "히말라야 솔트 커피",
+      "흑임자 라떼",
+      "아인 슈패너",
+      "아포가토",
+      "콜드 브루",
+      "딸기 라떼",
+      "말차 라떼",
+      "초코 라떼",
+      "오곡 라떼",
+      "수제 자몽 티",
+      "수제 레몬 티",
+      "수제 청귤티",
+      "수제 레몬에이드",
+      "수제 자몽 이드",
+      "수제 석류 이드",
+      "딸기 요거트 스무디",
+      "블루베리 요거트 스무디",
+      "초코 스무디",
+      "청포도 주스",
+      "자몽 주스",
+      "오렌지 주스",
+      "키위 주스",
+      "수박 주스"
+    ],
+    "MENU_ENG_ADD_INFO": [
+      "Americano",
+      "Cafe latte.",
+      "Cappuccino.",
+      "Vanilla latte.",
+      "Mocha latte.",
+      "Caramel macchiato.",
+      "Himalayan salt coffee.",
+      "Black sesame latte.",
+      "Ahin spanner.",
+      "Affogato.",
+      "Cold Brew.",
+      "Strawberry latte.",
+      "Malcha latte.",
+      "Chocolate latte.",
+      "Five grain latte.",
+      "Handmade grapefruit tea.",
+      "Handmade lemon tea.",
+      "Handmade green tangerine tea.",
+      "Handmade lemonade.",
+      "Handmade grapefruit ade.",
+      "Handmade pomegranate.",
+      "Strawberry yogurt smoothie.",
+      "Blueberry yogurt smoothie.",
+      "Chocolate smoothie.",
+      "Green grape juice.",
+      "Grapefruit juice.",
+      "Orange juice.",
+      "Kiwi juice.",
+      "Watermelon juice."
+    ],
+    "SD_ID": 15243,
+    "SD_NM": "네이버",
+    "SD_URL": "https://map.naver.com/v5/smart-around/place/1391310640",
+    "SD_ADD_INFO": [
+      
+    ]
+  }]

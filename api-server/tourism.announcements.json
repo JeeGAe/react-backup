@@ -1,0 +1,170 @@
+[{
+  "_id": {
+    "$oid": "64e847209824b87c0800b639"
+  },
+  "announcementNo": 1,
+  "announcementTitle": "홈페이지 점검 안내",
+  "announcementContents": "2023-7-28 Yg Tourism 홈페이지의 점검이 있습니다",
+  "announcementPeple": "admin",
+  "announcementCreateDate": {
+    "$date": "2023-07-28T06:16:00.365Z"
+  },
+  "announcementModifyDate": {
+    "$date": "2023-07-28T06:16:00.365Z"
+  },
+  "__v": 0,
+  "announcementCheck": 13
+},
+{
+  "_id": {
+    "$oid": "64e8473e868d97bc55d2257e"
+  },
+  "announcementNo": 2,
+  "announcementTitle": "이벤트 공지 안내",
+  "announcementContents": "2023-08-23 대전시 0시 축제가 있습니다. 많은 참여 부탁드립니다",
+  "announcementPeple": "admin",
+  "announcementCreateDate": {
+    "$date": "2023-08-20T06:16:30.354Z"
+  },
+  "announcementModifyDate": {
+    "$date": "2023-08-20T06:16:30.354Z"
+  },
+  "__v": 0,
+  "announcementCheck": 18
+},
+{
+  "_id": {
+    "$oid": "64e8474472ae559690dce93b"
+  },
+  "announcementNo": 3,
+  "announcementTitle": "공지사항 3",
+  "announcementContents": "공지사항 테스트 입니다",
+  "announcementPeple": "admin",
+  "announcementCreateDate": {
+    "$date": "2023-08-25T06:16:36.012Z"
+  },
+  "announcementModifyDate": {
+    "$date": "2023-08-25T06:16:36.012Z"
+  },
+  "__v": 0,
+  "announcementCheck": 14
+},
+{
+  "_id": {
+    "$oid": "64ec9fb8a144b00b085117ea"
+  },
+  "announcementNo": 4,
+  "announcementTitle": "대전 워터파크 개장 안내",
+  "announcementContents": "대전 워터 파크가 개장됩니다",
+  "announcementPeple": "admin",
+  "announcementCheck": 1,
+  "announcementCreateDate": {
+    "$date": "2023-08-28T13:23:04.579Z"
+  },
+  "announcementModifyDate": {
+    "$date": "2023-08-28T13:23:04.579Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ec9fbf8ad32a2ceddb77b3"
+  },
+  "announcementNo": 5,
+  "announcementTitle": "공지사항 5",
+  "announcementContents": "공지사항 테스트 입니다",
+  "announcementPeple": "admin",
+  "announcementCheck": 1,
+  "announcementCreateDate": {
+    "$date": "2023-08-28T13:23:11.999Z"
+  },
+  "announcementModifyDate": {
+    "$date": "2023-08-28T13:23:11.999Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ec9fc5ad2f492fd0fae020"
+  },
+  "announcementNo": 6,
+  "announcementTitle": "공지사항 6",
+  "announcementContents": "공지사항 테스트 입니다",
+  "announcementPeple": "admin",
+  "announcementCheck": 1,
+  "announcementCreateDate": {
+    "$date": "2023-08-28T13:23:17.083Z"
+  },
+  "announcementModifyDate": {
+    "$date": "2023-08-28T13:23:17.083Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ec9fc7bc9ce62a33a6693f"
+  },
+  "announcementNo": 7,
+  "announcementTitle": "대청호 녹조 현상 안내",
+  "announcementContents": "대청호 녹조 현상",
+  "announcementPeple": "admin",
+  "announcementCheck": 1,
+  "announcementCreateDate": {
+    "$date": "2023-08-28T13:23:19.628Z"
+  },
+  "announcementModifyDate": {
+    "$date": "2023-08-28T13:23:19.628Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ec9fc9ee342f2cde43a23a"
+  },
+  "announcementNo": 8,
+  "announcementTitle": "홈페이지 점검 시간 안내",
+  "announcementContents": "홈페이지 점검 시간 테스트 입니다",
+  "announcementPeple": "admin",
+  "announcementCheck": 1,
+  "announcementCreateDate": {
+    "$date": "2023-08-28T13:23:21.665Z"
+  },
+  "announcementModifyDate": {
+    "$date": "2023-08-28T13:23:21.666Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ec9fcb9009fd02478fc2e8"
+  },
+  "announcementNo": 9,
+  "announcementTitle": "공지사항 9",
+  "announcementContents": "공지사항 테스트 입니다",
+  "announcementPeple": "admin",
+  "announcementCheck": 2,
+  "announcementCreateDate": {
+    "$date": "2023-08-28T13:23:23.417Z"
+  },
+  "announcementModifyDate": {
+    "$date": "2023-08-28T13:23:23.417Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ec9fcda2763ecf964ba7a0"
+  },
+  "announcementNo": 10,
+  "announcementTitle": "로하스 캠핑장 이용 안내",
+  "announcementContents": "로하스 캠핑장 이용 안내 입니다",
+  "announcementPeple": "admin",
+  "announcementCheck": 5,
+  "announcementCreateDate": {
+    "$date": "2023-08-28T13:23:25.832Z"
+  },
+  "announcementModifyDate": {
+    "$date": "2023-08-28T13:23:25.832Z"
+  },
+  "__v": 0
+}]

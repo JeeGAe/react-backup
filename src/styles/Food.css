@@ -1,0 +1,30 @@
+
+.food-container {
+    display: flex;
+    width: 100%;
+    /* height: 940px; */
+    /* margin: 0 auto; */
+    padding: 0;
+}
+.food-contents {
+    width: 30%;
+    background: white;
+}
+.food-contents h2 {
+    width: 90%;
+    padding: 10px;
+    margin-left: 1rem ;
+    border-bottom: 2px solid #585858;
+}
+.food-body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.mapinfo-container-boxDescript {
+    width: 100%;
+}
+
+

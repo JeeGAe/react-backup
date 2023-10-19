@@ -1,0 +1,64 @@
+.LoginModal-container{
+  position: absolute;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 700px;
+  width: 50%;
+  height: 20%;
+  background-color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  box-shadow: 2px 2px #555;
+  z-index: 10;
+}
+.LoginModal-container .modal-title span{
+  margin-left: .5rem;
+}
+.LoginModal-container button{
+  position: relative;
+}
+.LoginModal-container form{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+.LoginModal-input-container{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+.LoginModal-container form label{
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-between;
+}
+.LoginModal-container form label span{
+  flex: 0 0 content;
+}
+.LoginModal-container form label input{
+  flex-grow: 1;
+  border-top: 2px solid rgba(0, 0, 0, 0.6);
+  border-right: 2px solid#fff;
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid rgba(0, 0, 0, 0.6);
+}
+.LoginModal-container form label input:focus{
+  outline: none;
+}
+/* .LoginModal-container form .LoginModal-login-btn-container{
+  display: flex;
+  align-self: flex-start;
+} */
+.PasswordSearch-input-container {
+  width: 80%;
+}
+.LoginModal-footer{
+  margin: 0 auto;
+  margin-top: 1rem;
+  gap: 1rem;
+  width: 80%;
+  display: flex;
+  justify-content: end;
+}

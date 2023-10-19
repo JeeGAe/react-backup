@@ -1,0 +1,97 @@
+.foodlist-container {
+    display: flex;
+    width: 100%;
+    height: 650px;
+    flex-wrap: wrap;
+    overflow: auto;
+    margin-bottom: 3rem;
+}
+.foodlist-container-box {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+}
+.foodlist-container-box img {
+    border: 1px solid #585858;
+    border-radius: 5px;
+    width: 130px;
+    height: 89px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.foodlist-container-boxBody {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+.foodlist-container-boxTitle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.foodlist-container-boxTitle h3 {
+    margin: 0;
+    /* width: 70%; */
+}
+.foodlist-container-boxTitle span {
+    margin-left: 1rem;
+}
+.foodlist-contents {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.foodlist-contents.active {
+    background-color: #d95050;
+    color: white;
+}
+.foodlist-contents:hover {
+    background: var(--secondary-color);
+}
+.foodlist-title {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+.foodlist-title > span {
+    margin-left: 1rem;
+}
+.foodlist-body {
+    display: inline-flex;
+    flex-direction: column;
+}
+.foodlist-body > span:nth-child(2) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.foodlist-adress, .foodlist-time,
+.foodlist-call {
+    display: flex;
+    padding: 0.5rem;
+    border-top: 1px solid #e6e6e6;
+}
+.foodlist-call {
+    border-bottom: 1px solid #e6e6e6;
+}
+.foodlist-adress > span , 
+.foodlist-time > span , .foodlist-call > span{
+    font-size: 1rem;
+}
+
+.foodlist-adress > span:nth-child(1),
+.foodlist-time > span:nth-child(1),
+.foodlist-call > span:nth-child(1) {
+    font-size: 1.5rem;
+}
+.foodErrorDiv {
+    text-align: center;
+}

@@ -1,0 +1,175 @@
+@import url('./Globar.css');
+
+
+.loung__body{
+    width: 100vw;
+    min-height: calc(100vh - 65px);
+    height: 100vh;
+    background: #fff;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lounge__textOutput{
+    max-width: 80%;
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.lounge__textOutput__text{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.5px solid rgb(243, 239, 239);
+    margin-top: 1rem;
+}
+.lounge__textOutput__text .nickname{
+    display: flex;
+}
+.lounge__textOutput__text .nickname span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.lounge__textOutput__text .nickname span:first-child{
+    font-weight: bold;
+    font-size: .8rem;
+}
+.lounge__textOutput__text .nickname span img{
+    width: 25px;
+    height: 25px;
+}
+
+.lounge__textOutput .text__function{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* border: 1px solid #333; */
+    font-size: .8rem;
+    position: relative;
+}
+
+.lounge__textOutput .text__function p { 
+    width: 800px; 
+}
+
+#nickname {
+    width: 100px;
+    border: 1px solid #333;
+}
+#password{
+    width: 100px;
+    border: 1px solid #333;
+}
+
+.edit{
+    color: rgb(75, 73, 218);
+}
+.delete{
+    color: rgb(218, 73, 73);
+}
+.edit:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.delete:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.comment:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.checkPasswordModal{
+    position: absolute;
+    /* border: 1px solid #333; */
+    background: rgb(241, 231, 231);   
+    /* border-radius: 1rem; */
+    width: 250px;
+    height: 100px;
+    bottom: 30%;
+    left: 10%;
+    /* display: none;/ */
+}
+.checkPasswordModal input{
+    height: 20px;
+ }
+.checkPasswordModal h5{
+    font-size: .8rem;
+    margin-left: 10px;
+}
+.Modalshow{
+    display: block;
+}
+.passwordCheck{
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.passwordCheck button{
+    width: 50px;
+    height: 25px;
+}
+.editInputDiv{
+    display: flex;
+    justify-content: flex-end;
+}
+.editInputDiv input{
+    height: 20px;
+}
+.editInputDiv button{
+    width: 60px;
+    height: 25px;
+}
+.confirm:hover{
+    cursor: pointer;
+    text-decoration: underline;    
+}
+.cancel:hover{
+    cursor: pointer;
+    text-decoration: underline;    
+}
+.paragraph-id{
+    opacity: 0;
+}
+.depth{
+    opacity: 0;
+}
+.password-incorrect-text{
+    display: flex;
+    color: rgb(235, 23, 23);
+}
+.password-incorrect-text img{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+.password-incorrect{
+   animation: vibration 0.1s;
+}
+
+.written-time{
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: rgb(153, 153, 153);
+    margin-left: 10px;
+}
+
+.pagenation__summary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+
+}
+
+@keyframes vibration {
+    from {
+      transform: rotate(1deg);
+    }
+    to {
+      transform: rotate(-1deg);
+    }
+  }

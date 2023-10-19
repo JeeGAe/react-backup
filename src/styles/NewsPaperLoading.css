@@ -1,0 +1,15 @@
+
+.loading__frame{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events : none;
+}
+.giphy-embed{
+    border-radius: 50%;
+}
+.loading__frame h3{
+    font-size: 3rem;
+    text-align: center;
+}

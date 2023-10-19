@@ -1,0 +1,9 @@
+export { default as Home } from './Home';
+export { default as Food } from './Food';
+export { default as BackHome } from './BackHome';
+export { default as Play } from './Play'
+export { default as Work } from './Work'
+export { default as News } from './News'
+export { default as Lounge } from './Lounge'
+export { default as Register } from './Register'
+export { default as Modify } from './Modify'

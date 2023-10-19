@@ -1,0 +1,469 @@
+@import url('./Globar.css');
+
+@font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Giants-Inline';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Giants-Inline.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.newspapaer{
+    width: 100vw;
+    min-height: 100vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eae9ec;
+    position: relative;
+}       
+.newspapaer__header{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #c7c7c7;
+    font-family: 'Giants-Inline';
+    letter-spacing: 3px;    
+}
+.newspapaer__header h1{
+    font-size: 3.3rem;
+}
+
+.date-information{
+    width: 100%;
+    height: 30px;
+    padding: 5px 0;
+    border-top: 1px solid #c7c7c7;
+    text-align: right;
+    height: 10px;
+}
+.date-information span{
+    font-family: 'Chosunilbo_myungjo';
+    margin-right: 3rem;
+}
+
+
+/* 뉴스내용-좌/중/우 레이아웃 구성 */
+.newspapaer__body{
+    max-width: 100%;
+    height: calc(100% - 200px -30px); 
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 20rem;
+    /* border: 1px solid #333; */
+}
+.left{
+    width: 450px;
+    height: 100%;
+    margin-left: -3rem;
+    /* border: 1px solid #0e0a0a; */
+}
+.center{
+    /* width: 1000px; */
+    height: 100%;
+    /* border: 3px solid #a72e2e; */
+}
+.right{
+    width: 450px;
+    height: 100%;
+    /* border: 1px solid #0e0a0a; */
+}
+
+/* 기사 레이아웃 */
+.center{
+    margin-right: 1rem;
+}
+/* 중간 기사 */
+.center__article{
+    width: 100%;
+    /* height: 450px; */
+
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-right: 4rem;
+    margin-bottom: 5rem;
+}
+.center__article__img{
+    width: 600px;
+    /* height: 300px; */
+}
+.center__article__img img{
+    width: 100%;
+    /* height: 100%; */
+    object-fit: contain;
+    transition: all .3s ease-in-out;
+}
+.center__article__img img:hover{
+    scale: 1.01;
+    cursor: pointer;
+}
+.center__article__text{
+    width: 600px;
+    height: 50px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.center__article__text__headline{
+    font-size: 1.5rem;
+    font-family: 'Chosunilbo_myungjo';
+    /* text-align: center; */
+}
+.center__article__text__headline:hover{
+    color: #5579d3;
+    cursor: pointer;
+}
+
+/* 중간서브기사 */
+.center__article__sub{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+}
+.center__article__sub__content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.center__article__sub__content div{
+    display: flex;
+}
+.center__article__sub__content img{
+    width: 150px;
+    height: 100px;
+    object-fit: fill;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: all .3s ease-in-out;
+}
+.center__article__sub__content img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.center__article__sub__text{
+    display: flex;
+    flex-direction: column;
+}
+.center__article__sub__text__headline{
+    width: 450px;
+    font-size: 1.1rem;
+    font-family: 'Chosunilbo_myungjo';
+    margin-left: 10px;
+    margin-top: 2rem;
+}
+
+.center__article__sub__text__headline:hover{
+    color: #5579d3;
+    cursor: pointer;
+}
+
+
+/* 왼쪽기사 */
+.left__article{
+    width: 100%;
+    /* height: 800px; */
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+.left__article__img{
+    width: 400px;
+    /* height: 250px; */
+}
+.left__article__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: all .3s ease-in-out;
+}
+.left__article__img img:hover{
+    scale: 1.01;
+    cursor: pointer;
+}
+.left__article__text{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.left__article__text__headline{
+    font-family: 'Chosunilbo_myungjo';
+}
+.left__article__text__headline:hover{
+    color: #5579d3;
+    cursor: pointer;
+}
+/* 왼쪽기사 서브 */
+.left__article__sub{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.left__article__sub__content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 3rem;
+}
+.left__article__sub__content div{
+    width: 100%;
+    /* width: 150px; */
+    height: 100px;
+    display: flex;
+}
+.left__article__sub__content div img{
+    width: 150px;
+    /* height: 100px; */
+    object-fit: fill;
+    transition: all .3s ease-in-out;
+}
+.left__article__sub__content div img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.left__article__sub__text{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left__article__sub__text__headline{
+    font-size: .9rem;
+    font-family: 'Chosunilbo_myungjo';
+    line-height: 1.2;
+    margin-left: 10px;
+} 
+
+.left__article__sub__text__headline:hover{
+    color: #5579d3;
+    cursor: pointer;
+}
+
+
+/* 오른쪽기사 */
+.right__article{
+    width: 100%;
+    display: flex;
+    /* align-items: flex-start; */
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+.right__article__img{
+    width: 400px;
+    /* height: 250px; */
+}
+.right__article__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: all .3s ease-in-out;
+
+}
+.right__article__img img:hover{
+    scale: 1.01;
+    cursor: pointer;
+}
+.right__article__text{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    /* justify-content:center; */
+    align-items: center;
+}
+.right__article__text__headline{
+    margin-top: 3rem;
+    font-family: 'Chosunilbo_myungjo';
+}
+.right__article__text__headline:hover{
+    color: #5579d3;
+    cursor: pointer;
+}
+/* 오른쪽기사 서브 */
+.right__article__sub{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.right__article__sub__img{
+    width: 150px;
+    height: 100px;
+}
+.right__article__sub__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right__article__sub__img img:hover{
+    scale: 1.01;
+    cursor: pointer;
+}
+.right__article__sub__text{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.right__article__sub__text__headline{
+    font-size: .9rem;
+    font-family: 'Chosunilbo_myungjo';
+    line-height: 1.2;
+    margin-left: 10px;
+}
+.right__article__sub__text__headline:hover{
+    color: #5579d3;
+    cursor: pointer;
+}
+.right__article__sub__content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.right__article__sub__content div{
+    width: 100%;
+    /* width: 150px; */
+    height: 100px;
+    display: flex;
+}
+.right__article__sub__content div img{
+    width: 150px;
+    /* height: 100px; */
+    object-fit: fill;
+    transition: all .3s ease-in-out;
+}
+.right__article__sub__content div img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+/* 푸터 왼쪽 컨텐츠  */
+.newspapaer__footer{
+    height: 200px;
+    width: 100%;
+    background-color: #333;
+   
+    position: absolute;
+    bottom: 0 ;
+
+    display: flex;
+    justify-content: space-around;
+}
+.newspapaer__footer__left{
+    color: #fff;
+}
+.newspapaer__footer__left .site-information{
+    color: rgb(187, 187, 187);
+}
+.newspapaer__footer__left .site-information p{
+    margin-top: -15px;
+}
+.newspapaer__footer__left .site-information p:first-child{
+    border-top: 1px dashed rgb(187, 187, 187);
+    padding-top: 5px;
+}
+.newspapaer__footer__left .site-information p:last-child{
+    border-bottom: 1px dashed rgb(187, 187, 187);
+    padding-bottom: 5px;
+}
+/* 푸터 오른쪽 컨텐츠 */
+.newspapaer__footer ul{
+    width: 150px;
+    padding: 20px;
+}
+.newspapaer__footer li{
+    padding: 2px 0;
+    list-style: none;
+    color: rgb(187, 187, 187);
+}
+.newspapaer__footer__right{
+    display: flex;
+}
+.newspapaer__footer__right .About,
+.newspapaer__footer__right .Service,
+.newspapaer__footer__right .Policy
+{
+    color: #fff;
+    font-weight: bold;
+}
+
+/* 
+<div className="newspapaer__body__selectedNews">
+                <div className="selectedNews__headline">
+                    <h2>{selectedNews.title}</h2>
+                </div>
+                <div className="selectedNews__img">
+                    <img src={selectedNews.urlToImage} alt={selectedNews.title}/>
+                </div>
+                <div className="selectedNews__content">
+                    <p>{selectedNews.description}</p> <a href={selectedNews.url}>기사 전문 페이지로 이동</a>
+                </div>
+            </div>        
+*/
+.newspapaer__body__selectedNews{
+    max-width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.selectedNews__img{
+    width: 1200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.selectedNews__img img{
+    width: 100%;
+}
+.selectedNews__headline h2{
+    font-size: 2.5rem;
+    font-family: 'Chosunilbo_myungjo';
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.selectedNews__content{
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.selectedNews__content p{
+    font-size: 1.5rem;
+    font-family: 'Chosunilbo_myungjo';
+    margin-bottom: 3rem;
+    text-align: left;
+    line-height: 2;
+}
+
+.selectedNews__content a{
+    color: #5579d3;
+}
+.selectedNews__content a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

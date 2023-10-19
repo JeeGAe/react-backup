@@ -1,0 +1,8 @@
+@import url('./Globar.css');
+
+.Home {
+    width: 100vw;
+    height: 100vh;
+    background: var(--primary-color);
+    overflow: hidden;
+}

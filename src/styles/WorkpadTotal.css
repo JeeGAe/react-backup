@@ -1,0 +1,110 @@
+.WorkpadTotal-container{
+  width: 100%;
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+  display: flex;
+}
+/* 다른 버튼 css와 충돌하여 언셋 적용 */
+.WorkpadTotal-container button{ 
+  all: unset;
+}
+/* 달력 스타일 */
+.WorkpadTotal-calendar-container{
+  width: 60%;
+}
+/* 투두 리스트 스타일 */
+.WorkpadTotal-todo-container{
+  margin-left: 1rem;
+  width: 40%;
+}
+.WorkpadTotal-todo-select button{
+  color : #fff;
+  font-weight: bold;
+  padding: .5rem .8rem;
+  cursor: pointer;
+}
+.WorkpadTotal-todo-select button.primary{
+  border-radius: 5px 0 0 5px;
+  background-color: #ff2f2f;
+}
+.WorkpadTotal-todo-select button.routine{
+  background-color: #4254ff;
+}
+.WorkpadTotal-todo-select button.deadline{
+  background-color: #A918F5;
+}
+.WorkpadTotal-todo-select button.noDone{
+  background-color: #ff4ffc;
+  border-radius: 0 5px 5px 0;
+}
+.WorkpadTotal-todo-select button.noTodo{
+  background-color: grey;
+  cursor: auto;
+}
+@media (max-width: 820px) {
+  .WorkpadTotal-container{
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    margin-top: .5rem;
+    gap: .5rem;
+  }
+}
+
+@media (max-width: 280px) {
+  .WorkpadTotal-container{
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    margin-top: .5rem;
+    gap: .5rem;
+  }
+  /* 캘린더 */
+  .WorkpadTotal-calendar-container{
+    width: 90%;
+  }
+  .WorkpadTotal-calendar-container .fc .fc-toolbar.fc-header-toolbar{
+    margin: .3rem;
+  }
+  /* 캘린더 년도 월 타이틀 */
+  .WorkpadTotal-calendar-container .fc .fc-toolbar-title{
+    font-size: .75rem;
+  }
+  /* today버튼 */
+  .WorkpadTotal-calendar-container .fc .fc-button-primary{
+    font-size: .5rem;
+  }
+  /* 월 선택 화살표 버튼 */
+  .WorkpadTotal-calendar-container .fc .fc-button .fc-icon{
+    font-size: .5rem;
+    line-height: .5rem;
+  }
+  .WorkpadTotal-calendar-container .fc-prev-button .fc-button .fc-button-primary{
+    padding: 0.2rem 0.4rem;
+  }
+  .WorkpadTotal-calendar-container .fc table{
+    font-size: .5rem;
+  }
+  /* TODO */
+  .WorkpadTotal-todo-container{
+    margin: 0;
+    width: 90%;
+    font-size: .5rem;
+  }
+  .WorkpadTotal-todo-container h3{
+    font-size: .8rem;
+    margin: .3rem 0;
+  }
+  /* 보여질 투두 선택 탭 */
+  .WorkpadTotal-todo-select{
+    
+    text-align: center;
+  }
+  /* 투두 선택 탭 버튼 */
+  .WorkpadTotal-todo-select button{
+    padding: .3rem 1rem;
+  }
+  .WorkpadTotal-todo-container .WorkpadTodo-list-card{
+    min-width: 85%;
+  }
+}

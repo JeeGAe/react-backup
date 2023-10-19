@@ -1,0 +1,46 @@
+.foodMenu-taplist {
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
+}
+.foodMenu-taplist ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.foodMenu-taplist ul li {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-left: 15px;
+    border: 1px solid #e6e6e6;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.foodMenu-taplist ul li span {
+    cursor: pointer;
+}
+
+.foodMenu-taplist ul div:nth-child(1) li.active {
+    background-color: green;
+    color: white;
+}
+.foodMenu-taplist ul div:nth-child(2) li.active {
+    background-color: orange;
+    color: white;
+}
+.foodMenu-taplist ul div:nth-child(3) li.active {
+    background-color: pink;
+    color: white;
+}
+.foodMenu-taplist ul div:nth-child(4) li.active {
+    background-color: violet;
+    color: white;
+}
+.foodMenu-taplist ul div:nth-child(5) li.active {
+    background-color: var(--secondary-color);
+    color: white;
+}

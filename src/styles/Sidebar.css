@@ -1,0 +1,70 @@
+@import url('./Globar.css');
+
+.window-menubar img{
+    width: 40px;
+    height: 40px;
+}
+.window-menubar a:nth-child(7) img,
+.window-menubar a:nth-child(8) img,
+.window-menubar a:nth-child(9) img{
+    width: 40px;
+    height: 40px;
+}
+
+.window-bar{
+    width: 250px;
+    display: flex;
+    position: absolute;
+    top: 100px;
+    background: rgb(192, 192, 192);
+    transition: all 0.3s ease-in-out;
+}
+.window-textbar{
+    width: 30px;
+    height: 470px;
+    background-color: #807F86;
+    color: #BEBEBE;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.window-menubar {
+    width: 100%;
+    height: 470px;
+    margin-top: 10px;
+    /* gap: 5px; */
+    display: flex;
+    flex-direction: column;
+}
+.window-menubar div{
+    padding: 0.5rem 0;
+}
+.window-menubar div:hover{  /* 메뉴 hover시 보라색 배경색깔 적용 */
+    background: #020183;
+}
+.window-menubar div:hover { /* 메뉴 hover시 글자 흰색으로 적용 */
+    color: #fff;
+}
+.window-menubar div{
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.window-menubar a{ /* 메뉴바 아이콘 옆 글자 */
+    font-weight: bold;
+}
+
+.window-textbar h5{ /*Window 95에서 WIndow 글자 */
+    writing-mode: vertical-rl ;
+    transform: rotate(180deg);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.window-textbar span{ /*Window 95에서 95 글자 */
+    color: #F2EFF7;
+    font-weight: normal;
+}
+.showSidebar{ /* 하단 시작버튼 메뉴바 보이게 하기 */
+    top: -470px;
+}

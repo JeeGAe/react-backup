@@ -1,0 +1,69 @@
+@import url('./Globar.css');
+/* 헬프 메모 크기 및 위치 설정 */
+.HelpMemo-container{
+  max-width: 500px;
+  max-height: 400px;
+  width: 500px;
+  height: 400px;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  border: 2px solid var(--secondary-color);
+  box-shadow: 2px 2px #555;
+  transition: .5s;
+}
+.Memo-open{
+  top: 20%;
+  left: 50%;
+  transform: scale(1);
+}
+.Memo-hidden{
+  top: 90%;
+  left: 0px;
+  transform: scale(0);
+}
+/* 헬프 메모장 헤더  */
+.HelpMemo-header{
+  width: 100%;
+  height: 25px;
+  background: #020183;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* position: absolute;
+  top: 0;
+  z-index: 5; */
+}
+.HelpMemo-header h5{
+  padding-left: 1rem;
+  font-size: 1.1rem;
+}
+.HelpMemo-header .button-container{
+  width: 30px;
+  height: 100%;
+}
+.HelpMemo-header .button-container button{
+  font-weight: bold;
+}
+/* 헬프 메모장 텍스트 부분 */
+.HelpMemo-textarea{
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes Memo-hidden{
+  from{
+    transform: scale(1);
+  }
+  to{
+    
+  }
+}

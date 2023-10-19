@@ -1,0 +1,58 @@
+.Modify-container{
+  position: absolute;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 80%;
+  background-color: var(--secondary-color);
+}
+.Modify-container button{
+  position: relative;
+}
+/* 회원가입 헤더  */
+.Modify-header{
+  width: 100%;
+  height: 25px;
+  background: #020183;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Modify-header h5{
+  padding-left: 1rem;
+  font-size: 1.1rem;
+}
+.Modify-header .Modify-button-container{
+  width: 30px;
+  height: 100%;
+}
+.Modify-header .Modify-button-container button{
+  font-weight: bold;
+}
+/* 회원가입 폼 태그 */
+.Modify-form-container{
+  height: 100%;
+}
+.Modify-form-container form{
+  height: 100%;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.Modify-form-container form label{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.Modify-form-container form label input{
+  flex-grow: 1;
+  border-top: 2px solid rgba(0, 0, 0, 0.6);
+  border-right: 2px solid#fff;
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid rgba(0, 0, 0, 0.6);
+
+}

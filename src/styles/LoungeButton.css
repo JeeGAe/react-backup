@@ -1,0 +1,17 @@
+
+.pagenation-btn{
+    all: unset;
+    cursor: pointer;
+    display: flex;
+}
+
+.pagenation-btn:active{
+    box-shadow: none;
+    opacity: 0.3;
+    scale: 1.2;
+}
+
+.active{
+    color: rgb(45, 2, 126);
+    font-weight: bold;
+}

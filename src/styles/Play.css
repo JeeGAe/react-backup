@@ -1,0 +1,8 @@
+@import url('./Globar.css');
+
+.Play {
+    width: 2000px;
+    height: 100vh;
+    /* background: var(--primary-color); */
+    /* background: lightcyan; */
+}

@@ -59,7 +59,6 @@ function Register(){
         })
         .catch(e => console.log(e))
         .then((res) => {
-          console.log(res)
           if(res?.status === 200){
             alert('회원가입이 완료되었습니다!')
             setInputRegisterData({
@@ -86,7 +85,6 @@ function Register(){
   const open = useDaumPostcodePopup();
 
   const addressSearchHandle = (data) => {
-    console.log(data)
     setInputRegisterData({ ...inputRegisterData, userAddresss : `대전광역시 ${data.sigungu} ${data.bname}`, userAddresssDetail : data.roadAddress })
   }
   const daumToggleHandler = (e) => {

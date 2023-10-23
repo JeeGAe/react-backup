@@ -8,6 +8,7 @@ const generateToken = (user) => {
         keyword : user.keyword ,
         address : user.address,
         name : user.name,
+        addressDetail : user.addressDetail
     
     }, config.JWT_SECRET ,
     {

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Header , Footer } from "../components"
 // import mapApi from "../services/Map";
+import proj4 from "proj4";
 const { kakao } = window;
 
 function BackHome({userInfo}){
@@ -52,11 +53,23 @@ function BackHome({userInfo}){
         })
         .then(res => res.json())
         // .then(res => new DOMParser().parseFromString(res, 'application/xml'))
-        .then(res => console.log(res))
+        .then(res => {
+            console.log(res);
+            // const { x, y } = res.data.document[0];
+            // fetch(`http://127.0.0.1:5300/api/kakaomap/getCloseStation?tmX=${x}&tmY=${y}`, {
+            //     method : 'GET',
+            //     headers : {
+            //         'Content-Type' : 'application/json'
+            //     },
+            //     credentials : 'include',
+            //     cache : 'no-cache',
+            // })
+            // .then(res => res.json())
+            // .then(res => {
+            //     console.log(res);
+            // })
+        })
     },[])
-    var latlng = new kakao.maps.LatLng(127.376927442652, 36.3450685550792);
-var coords = latlng.toCoords(); // daum.maps.Coords, 객체 반환(wcong)
-console.log(coords.toString());
 
     return(
        <>

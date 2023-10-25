@@ -30,7 +30,7 @@ const loungeChat = require('./router/loungeChats')
 const loungeComment = require('./router/loungeComments')
 const scheduleRoute = require('./router/schedule')
 const todoRoute = require('./router/todo')
-const kakaoMap = require('./router/kakaoMap');
+const backHomeRoute = require('./router/backHome');
 
 
 // 라우터 적용
@@ -40,7 +40,7 @@ app.use('/lounge', loungeChat)
 app.use('/loungeComment', loungeComment)
 app.use('/api/schedule', scheduleRoute);
 app.use('/api/todo', todoRoute);
-app.use('/api/kakaoMap', kakaoMap);
+app.use('/api/backHome', backHomeRoute);
 
 // 에러처리 미들웨어
 app.get('/error', (req, res, next) => {

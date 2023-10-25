@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Header , Footer } from "../components"
 // import mapApi from "../services/Map";
-import proj4 from "proj4";
+import { Map, MapMarker, CustomOverlayMap } from "react-kakao-maps-sdk"
+
 const { kakao } = window;
 
 function BackHome({userInfo}){
@@ -43,8 +44,9 @@ function BackHome({userInfo}){
     //     width : "2000px",
     //     height : "2000px",
     // }
+    const [nearStation, setNearStation] = useState([])
     useEffect(() => {
-        fetch('http://127.0.0.1:5300/api/kakaomap/getXY',{
+        fetch('http://127.0.0.1:5300/api/backHome/getUserNearBusStation',{
             headers : {
                 'Content-Type' : 'application/json'
             },
@@ -55,6 +57,7 @@ function BackHome({userInfo}){
         // .then(res => new DOMParser().parseFromString(res, 'application/xml'))
         .then(res => {
             console.log(res);
+            setNearStation(res.nearBusStation)
             // const { x, y } = res.data.document[0];
             // fetch(`http://127.0.0.1:5300/api/kakaomap/getCloseStation?tmX=${x}&tmY=${y}`, {
             //     method : 'GET',
@@ -74,7 +77,29 @@ function BackHome({userInfo}){
     return(
        <>
             <Header></Header>
-            <div id='map'></div>
+            <Map
+                center={{
+                    lat: 36.3450685550792, 
+                    lng: 127.376927442652
+                }}
+                style={{
+                    width : "70%",
+                    height : "990px",
+                }}
+                level={4}
+                >
+                {nearStation.map((data, index) => (
+                    <MapMarker
+                        key={`foodList-${index}-${data.LAT},${data.LOT}`}
+                        position={{
+                            lat : data['위도'],
+                            lng : data['경도'],
+                        }}
+                        title={data['정류장명']}
+                    >
+                    </MapMarker>
+                ))}
+            </Map>
             <Footer userInfo={userInfo}></Footer>   
        </>
     )

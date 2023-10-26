@@ -106,6 +106,7 @@ router.put('/modify', isAuth, expressAsyncHandler(async (req, res) => {
         searhUser.password = req.body.password || searhUser.password;
         searhUser.keyword = req.body.keyword || searhUser.keyword;
         searhUser.address = req.body.address || searhUser.address;
+        searhUser.addressDetail = req.body.addressDetail || searhUser.addressDetail;
         const updatedUser = await searhUser.save();
         res.status(200).json({ code : 200, token : generateToken(updatedUser)});
     }

@@ -11,11 +11,12 @@ const getUserLocation = (req, res, next) => {
   })
   .then(r => r.json())
   .then(r => {
-    console.log(r.documents)
+    // console.log(r.documents)
     if(r.documents){
       const { documents } = r;
       const { x, y } = documents[0];
       req.userLocation = { x, y };
+      // console.log(x, y)
     }
     next()
   })

@@ -67,7 +67,9 @@ function Register(){
               CheckingUserPassword : '',
               userName : '',
               userKeyword : '',
-              userAddress : ''
+              userAddress : '',
+              userAddresss : '',
+              userAddresssDetail : '',
             })
             moveToHomePage();
           } else {
@@ -85,7 +87,7 @@ function Register(){
   const open = useDaumPostcodePopup();
 
   const addressSearchHandle = (data) => {
-    setInputRegisterData({ ...inputRegisterData, userAddresss : `대전광역시 ${data.sigungu} ${data.bname}`, userAddresssDetail : data.roadAddress })
+    setInputRegisterData({ ...inputRegisterData, userAddresss : `${data.sigungu} ${data.bname}`, userAddresssDetail : data.roadAddress })
   }
   const daumToggleHandler = (e) => {
     e.preventDefault();

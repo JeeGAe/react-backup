@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import daejeonRegionData from '../DaejeonRegionData';
 import '../styles/userModify.css';
 import { useCookies } from 'react-cookie';
+import { useDaumPostcodePopup } from 'react-daum-postcode';
 
 function Modify({ setUserInfo, userInfo }) {
   const [ cookies, setCookie ] = useCookies(['accessToken'])
@@ -14,7 +15,9 @@ function Modify({ setUserInfo, userInfo }) {
     CheckingUserPassword : '',
     userName : '',
     userKeyword : '',
-    userAddress : ['','']
+    userAddress : ['',''],
+    userAddresss : '',
+    userAddresssDetail : '',
   });
   // 에러 스테이트
   const [errorInputData, setErrorInputData] = useState({
@@ -42,13 +45,16 @@ function Modify({ setUserInfo, userInfo }) {
         if(res.code !== 200){
           setErrorInputData({ err : 'invalidPassword', message : '비밀번호를 확인해주세요!'})
         } else {
-          const addressArray = res.address.split(' ');
-          console.log(addressArray)
+          // const addressArray = res.address.split(' ');
+          // console.log(addressArray)
           setInputModifyData({...inputModifyData, 
             userPassword : '',
             userName : res.name, 
             userKeyword: res.keyword, 
-            userAddress : [addressArray[1], addressArray[2]]});
+            userAddresss : res.address,
+            userAddresssDetail : res.addressdetail
+          });
+            
           setModifyVerified(true);
         }
       })
@@ -84,7 +90,8 @@ function Modify({ setUserInfo, userInfo }) {
         password : inputModifyData.userPassword.trim(),
         name : inputModifyData.userName.trim(),
         keyword : inputModifyData.userKeyword.trim(),
-        address : '대전광역시' + ' ' + inputModifyData.userAddress[0] + ' ' + inputModifyData.userAddress[1]
+        address : inputModifyData.userAddresss,
+        addressDetail : inputModifyData.userAddresssDetail
       })
     })
     .catch(e => console.log(e))
@@ -95,10 +102,10 @@ function Modify({ setUserInfo, userInfo }) {
         setCookie('accessToken', res.token, { 
           path: '/',
         });
-        setUserInfo({
-          name : inputModifyData.userName.trim() , 
-          keyword : inputModifyData.userKeyword.trim(), 
-          address : `대전광역시 ${inputModifyData.userAddress[0]} ${inputModifyData.userAddress[1]}`})
+        // setUserInfo({
+        //   name : inputModifyData.userName.trim() , 
+        //   keyword : inputModifyData.userKeyword.trim(), 
+        //   address : `대전광역시 ${inputModifyData.userAddress[0]} ${inputModifyData.userAddress[1]}`})
         setInputModifyData({
           userId : '',
           userPassword : '',
@@ -111,6 +118,17 @@ function Modify({ setUserInfo, userInfo }) {
       }
     })
 
+  }
+
+  const open = useDaumPostcodePopup();
+
+  const addressSearchHandle = (data) => {
+    setInputModifyData({ ...inputModifyData, userAddresss : `${data.sigungu} ${data.bname}`, userAddresssDetail : data.roadAddress })
+  }
+
+  const daumToggleHandler = (e) => {
+    e.preventDefault();
+    open({ top : 200, left : 500, onComplete : addressSearchHandle });
   }
 
   const navigate = useNavigate();
@@ -154,7 +172,7 @@ function Modify({ setUserInfo, userInfo }) {
             <label><span>name : </span><input type='text' name='userName' onChange={changeModifyData} value={inputModifyData.userName}/></label>
             <label><span>관심 키워드 : </span><input type='text' maxLength='15' name='userKeyword' onChange={changeModifyData} value={inputModifyData.userKeyword}/></label>
             <label><span>직장 주소 : </span>
-              <select defaultValue={inputModifyData.userAddress[0]} onChange={(e) => {setInputModifyData({...inputModifyData, userAddress : [e.target.value,daejeonRegionData[e.target.value][0]]})}}>
+              {/* <select defaultValue={inputModifyData.userAddress[0]} onChange={(e) => {setInputModifyData({...inputModifyData, userAddress : [e.target.value,daejeonRegionData[e.target.value][0]]})}}>
                 <option value='동구'>동구</option>
                 <option value='서구'>서구</option>
                 <option value='중구'>중구</option>
@@ -165,7 +183,9 @@ function Modify({ setUserInfo, userInfo }) {
                 {daejeonRegionData[`${inputModifyData.userAddress[0]}`]?.map((d, index) => {
                   return <option key={index+d} value={d}>{d}</option>
                 })}
-              </select>
+              </select> */}
+              <input type='text' readOnly value={inputModifyData.userAddresss} />
+              <button type='button' onClick={daumToggleHandler}>주소 찾기</button>
             </label>
             {errorInputData.err === 'emptyName' && <span style={{color:'red'}}>{errorInputData.message}</span>}
             <button onClick={handleModify}>수정완료</button>

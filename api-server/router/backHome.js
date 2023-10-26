@@ -5,7 +5,7 @@ const { isAuth } = require('../auth');
 const convert = require('xml-js');
 const jsdom = require('jsdom');
 const { getUserLocation } = require('../controllers/kakaoMap');
-const { getUserRegionBusStation } = require('../controllers/bus');
+const { getUserRegionBusStation, getBusStaionInfo } = require('../controllers/bus');
 
 // router.get('/getXY', isAuth, expressAsyncHandler(async (req, res) => {
 //   fetch(`https://api.odcloud.kr/api/15067528/v1/uddi:eb02ec03-6edd-4cb0-88b8-eda22ca55e80`,{
@@ -72,14 +72,32 @@ const { getUserRegionBusStation } = require('../controllers/bus');
 router.get('/getUserNearBusStation', isAuth, getUserRegionBusStation, getUserLocation, expressAsyncHandler(async (req, res) => {
   const busStations = [...req.busStation];
   const userLocation = req.userLocation;
-  const nearBusStation = busStations.filter(b => {
-    return (Math.abs(parseFloat(b['경도'])-parseFloat(userLocation.x)) <= 0.005 && Math.abs(parseFloat(b['위도'])-parseFloat(userLocation.y)) <= 0.005)});
-  if(!nearBusStation){
-    res.status(404).json({ code : 404, message : 'Not found near bus-station'});
+  const userAddress = req.user.address;
+  const userAddressDetail = req.user.addressDetail;
+  if(userAddress.includes('서울') || userAddressDetail.includes('서울')){
+    const nearBusStation = busStations.filter(b => {
+      return (Math.abs(parseFloat(b['경도'])-parseFloat(userLocation.x)) <= 0.005 && Math.abs(parseFloat(b['위도'])-parseFloat(userLocation.y)) <= 0.005)});
+    if(!nearBusStation){
+      res.status(404).json({ code : 404, message : 'Not found near bus-station'});
+    } else {
+      res.status(200).json({ code : 200, region: '서울', nearBusStation, userLocation });
+    }
   } else {
-    res.status(200).json({ code : 200, nearBusStation });
+    const nearBusStation = busStations.filter(b => {
+      return (Math.abs(parseFloat(b['경도'])-parseFloat(userLocation.x)) <= 0.005 && Math.abs(parseFloat(b['위도'])-parseFloat(userLocation.y)) <= 0.005)});
+    if(!nearBusStation){
+      res.status(404).json({ code : 404, message : 'Not found near bus-station'});
+    } else {
+      res.status(200).json({ code : 200, region: '지역', nearBusStation, userLocation });
+    }
   }
+  
 }))
 
+router.get('/getBusStationInfo:id', isAuth, getBusStaionInfo, expressAsyncHandler(async (req, res) => {
+  const dom = new jsdom.JSDOM(req.busStationInfo);
+  const result = convert.xml2js(dom, {compact : true});
+  res.status(200).json({ code : 200, result });
+}))
 
 module.exports = router;

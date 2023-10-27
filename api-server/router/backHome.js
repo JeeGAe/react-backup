@@ -5,7 +5,7 @@ const { isAuth } = require('../auth');
 const convert = require('xml-js');
 const jsdom = require('jsdom');
 const { getUserLocation } = require('../controllers/kakaoMap');
-const { getUserRegionBusStation, getBusStaionInfo } = require('../controllers/bus');
+const { getUserRegionBusStation, getBusStationInfo, getBusLocation } = require('../controllers/bus');
 
 // router.get('/getXY', isAuth, expressAsyncHandler(async (req, res) => {
 //   fetch(`https://api.odcloud.kr/api/15067528/v1/uddi:eb02ec03-6edd-4cb0-88b8-eda22ca55e80`,{
@@ -94,9 +94,15 @@ router.get('/getUserNearBusStation', isAuth, getUserRegionBusStation, getUserLoc
   
 }))
 
-router.get('/getBusStationInfo:id', isAuth, getBusStaionInfo, expressAsyncHandler(async (req, res) => {
-  const dom = new jsdom.JSDOM(req.busStationInfo);
-  const result = convert.xml2js(dom, {compact : true});
+router.get('/getBusStationInfo/:id', isAuth, getBusStationInfo, expressAsyncHandler(async (req, res) => {
+  // const dom = new jsdom.JSDOM(req.busStationInfo);
+  const result = convert.xml2js(req.busStationInfo, {compact : true});
+  res.status(200).json({ code : 200, result });
+}))
+
+router.get('/getBusLocation/:id', isAuth, getBusLocation, expressAsyncHandler(async (req, res) => {
+  // const dom = new jsdom.JSDOM(req.busStationInfo);
+  const result = convert.xml2js(req.busLocation, {compact : true});
   res.status(200).json({ code : 200, result });
 }))
 

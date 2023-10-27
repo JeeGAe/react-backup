@@ -43,7 +43,7 @@ const SeoulBusStation = mongoose.model('seoulBusStation', new mongoose.Schema({
   },
 }));
 
-// 내 지역 버스 정류장 조회
+// 유저 지역 버스 정류장 조회
 const getUserRegionBusStation = expressAsyncHandler(async (req, res, next) => {
   const userAddress = req.user.address;
   const userAddressDetail = req.user.addressDetail;
@@ -66,13 +66,16 @@ const getUserRegionBusStation = expressAsyncHandler(async (req, res, next) => {
   }  
 })
 
-const getBusStaionInfo = expressAsyncHandler(async (req, res, next) => {
+const getBusStationInfo = expressAsyncHandler(async (req, res, next) => {
   const userAddress = req.user.address;
   const userAddressDetail = req.user.addressDetail;
   const busStationId = req.params.id;
   if(userAddress.includes('대전') || userAddressDetail.includes('대전')){
     fetch(`http://openapitraffic.daejeon.go.kr/api/rest/arrive/getArrInfoByUid?arsId=${busStationId}&serviceKey=${process.env.BUS_REST_API_KEY_ENCODED}`,{
-      method : 'GET'
+      method : 'GET',
+      headers : {
+        'Content-Type' : 'application/x-www-form-urlencoded;charset=UTF-8',
+      }
     })
     .then(r => r.text())
     .then(r => {
@@ -81,7 +84,27 @@ const getBusStaionInfo = expressAsyncHandler(async (req, res, next) => {
     })
   }
 })
+
+const getBusLocation = expressAsyncHandler(async (req, res, next) => {
+  const userAddress = req.user.address;
+  const userAddressDetail = req.user.addressDetail;
+  const routeId = req.params.id;
+  if(userAddress.includes('대전') || userAddressDetail.includes('대전')){
+    fetch(`http://openapitraffic.daejeon.go.kr/api/rest/busposinfo/getBusPosByRtid?busRouteId=${routeId}&serviceKey=${process.env.BUS_REST_API_KEY_ENCODED}`, {
+      method : 'GET',
+      headers : {
+        'Content-Type' : 'application/x-www-form-urlencoded;charset=UTF-8',
+      },
+    })
+    .then(r => r.text())
+    .then(r => {
+      req.busLocation = r;
+      next();
+    })
+  }
+})
 module.exports = {
   getUserRegionBusStation,
-  getBusStaionInfo,
+  getBusStationInfo,
+  getBusLocation,
 }

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo, useRef } from "react";
 import { Header , Footer } from "../components";
 import '../styles/BackHome.css';
 // import mapApi from "../services/Map";
@@ -46,9 +46,12 @@ function BackHome({userInfo}){
     //     width : "2000px",
     //     height : "2000px",
     // }
-    const [userLocation, setUserLocation] = useState(null)
-    const [nearStation, setNearStation] = useState([])
-    const [openStataionInfo, setOpenStataionInfo] = useState(null)
+    const [userLocation, setUserLocation] = useState(null); // 유저 위도 경도 스테이트
+    const [nearStation, setNearStation] = useState([]); // 유저 근처 버스 정류장 스테이트
+    const [stationInfo, setStationInfo] = useState({}); // 클릭 한 버스 정류장 정보
+    const [arrivingBus, setArrivingBus] = useState([]); // 클릭 한 버스 정류장에 도착하는 버스 정보
+    const [routeInfo, setRouteInfo] = useState([]);
+
     useEffect(() => {
         fetch('http://127.0.0.1:5300/api/backHome/getUserNearBusStation',{
             headers : {
@@ -60,7 +63,6 @@ function BackHome({userInfo}){
         .then(res => res.json())
         // .then(res => new DOMParser().parseFromString(res, 'application/xml'))
         .then(res => {
-            console.log(res);
             setNearStation(res.nearBusStation);
             setUserLocation(res.userLocation);
             // const { x, y } = res.data.document[0];
@@ -79,22 +81,60 @@ function BackHome({userInfo}){
         })
     },[])
 
-    console.log()
+    // const scrollBusStationList = (_id) => {
+    //     let index = 0;
+    //     for(let station of nearStation){
+    //         if(station._id === _id) break;
+    //         index++;
+    //     }
+    //     document.querySelector('.bus-station-list-container').scrollTo(0,busStationScrollHeight - (busStationScrollHeight / nearStation.length * (nearStation.length - index)));
+    //     selectBusStationElement.current.scrollIntoView();
+    // }
+    
+    const selectBusStationElement = useRef(null);
+    // 버스 정류장 클릭 시 스크롤 위치 이동 
+    useEffect(() => {
+        selectBusStationElement.current?.parentElement.scrollIntoView();
+    },[stationInfo])
 
-    const scrollBusStationList = (_id) => {
-        let index = 0;
-        for(let station of nearStation){
-            if(station._id === _id) break;
-            index++;
-        }
-        const busStationScrollHeight = document.querySelector('.bus-station-list-container').scrollHeight;
-        document.querySelector('.bus-station-list-container').scrollTo(0,busStationScrollHeight - (busStationScrollHeight / nearStation.length * (nearStation.length - index)));
+    // 버스 정류장에 오는 버스 정보 받기
+    const getBusStaionInfo = (busStationId) => {
+        fetch(`http://127.0.0.1:5300/api/backHome/getBusStationInfo/${busStationId}`,{
+            method : 'GET',
+            headers : {
+                'Content-Type' : 'application/json'
+            },
+            credentials : 'include'
+        })
+        .then(res => res.json())
+        .then(res => {
+            const { itemList } = res.result.ServiceResult.msgBody;
+            setArrivingBus([...itemList]);
+        })
     }
 
-    const getBusStaionInfo = () => {
-        fetch('http://127.0.0.1:3000/')
+    // 버스 정류장 마커 클릭 시 이벤트
+    const ClickBusStationMarker = (data) => {
+        setStationInfo({...data});
+        getBusStaionInfo(data['모바일단축번호']);
+        // scrollBusStationList(data._id);
     }
 
+    const handleBusLocation = (routeId) => {
+        fetch(`http://127.0.0.1:5300/api/backHome/getBusLocation/${routeId}`,{
+            method : 'GET',
+            headers : {
+                'Content-Type' : 'application/json'
+            },
+            credentials : 'include',
+        })
+        .then(res => res.json())
+        .then(res => {
+            const { itemList } = res.result.ServiceResult.msgBody;
+            setRouteInfo(itemList);
+        })
+    }
+    console.log(routeInfo[0]?.GPS_LONG?._text)
     return(
        <>
             <Header></Header>
@@ -123,36 +163,51 @@ function BackHome({userInfo}){
                         title={data['정류장명']}
                         clickable={true}
                         onClick={() => {
-                            setOpenStataionInfo({...data});
-                            scrollBusStationList(data._id);
+                            ClickBusStationMarker(data)
                         }}
                     >
-                        {openStataionInfo?._id == data._id &&
+                        {stationInfo?._id == data._id &&
                         <span>{data['정류장명']}</span>
                         }
                     </MapMarker>
                     
                     </React.Fragment>
                 ))}
+                {routeInfo.map((data) =>(
+                    <MapMarker 
+                        key={data.PLATE_NO._text}
+                        position={{
+                            lat : parseFloat(data.GPS_LATI._text),
+                            lng : parseFloat(data.GPS_LONG._text),
+                        }}
+                        title={data.PLATE_NO._text}
+                    >
+                    </MapMarker>
+                ))}
             </Map>
             <div className="bus-station-container">
                 <div className="bus-station-list-container">
                 {nearStation.map(d => {
                     return(
-                        <div key={d._id} className={`bus-station-list ${openStataionInfo?._id === d._id ? 'station-list-highlight' : ''}`} onClick={() => {setOpenStataionInfo({...d})}}>
+                        <div key={d._id}  className={`bus-station-list ${stationInfo?._id === d._id ? 'station-list-highlight' : ''}`} onClick={() => {setStationInfo({...d})}}>
                             <h4>{d['정류장명']}</h4>
+                            {stationInfo?._id === d._id && 
+                                <div ref={selectBusStationElement} className="bus-station-info-container">
+                                    {!arrivingBus?.length !== 0 && 
+                                    arrivingBus?.map(b => {
+                                        return (
+                                            <div key={b.CAR_REG_NO._text} className="bus-station-info" onClick={() => handleBusLocation(b.ROUTE_CD._text)}>
+                                                <h5>{b.ROUTE_NO._text}</h5>
+                                                <p>{b.EXTIME_MIN._text}분 {parseInt(b.EXTIME_SEC._text) % 60}초</p>
+                                            </div>
+                                        )
+                                    })}
+                                </div>
+                            }
                         </div>
                     )
                 })}
                 </div>
-                <div>
-                    {openStataionInfo &&
-                        <div>
-                            <h2>{openStataionInfo['정류장명']}</h2>
-                        </div>
-                    }
-                </div>
-                
             </div>
             </div>
             }
